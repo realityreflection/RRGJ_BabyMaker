@@ -12,9 +12,10 @@ public class CommandLayer : MonoBehaviour
 	// Use this for initialization
 	void Start () {
         Commands = GetComponentsInChildren<Command>().ToList();
+        SetCommandInputEnable(false);
     }
 
-    void SetCommandInputEnable(bool isEnable)
+    public void SetCommandInputEnable(bool isEnable)
     {
         foreach (var command in Commands)
         {
@@ -24,13 +25,19 @@ public class CommandLayer : MonoBehaviour
 
     public void OnTurnStart()
     {
-        SetCommandInputEnable(true);
+        foreach (var command in Commands)
+        {
+            command.OnTurnStart();
+        }
         SelectedCmdIdx = -1;
     }
 
     public void OnTurnEnd()
     {
-
+        foreach (var command in Commands)
+        {
+            command.OnTurnEnd();
+        }
     }
 
     public void OnClickCommand(int commandIdx)

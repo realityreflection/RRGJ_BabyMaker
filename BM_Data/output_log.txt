@@ -1,0 +1,172 @@
+Initialize engine version: 5.6.0f3 (497a0f351392)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1070 (ID=0x1b81)
+    Vendor:   NVIDIA
+    VRAM:     3072 MB
+    Driver:   21.21.13.7866
+Begin MonoManager ReloadAssembly
+Platform assembly: D:\Develope\BabyMaker\RRGJ_BabyMaker\BM_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading D:\Develope\BabyMaker\RRGJ_BabyMaker\BM_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: D:\Develope\BabyMaker\RRGJ_BabyMaker\BM_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading D:\Develope\BabyMaker\RRGJ_BabyMaker\BM_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: D:\Develope\BabyMaker\RRGJ_BabyMaker\BM_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading D:\Develope\BabyMaker\RRGJ_BabyMaker\BM_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: D:\Develope\BabyMaker\RRGJ_BabyMaker\BM_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading D:\Develope\BabyMaker\RRGJ_BabyMaker\BM_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: D:\Develope\BabyMaker\RRGJ_BabyMaker\BM_Data\Managed\UnityEngine.Analytics.dll (this message is harmless)
+Loading D:\Develope\BabyMaker\RRGJ_BabyMaker\BM_Data\Managed\UnityEngine.Analytics.dll into Unity Child Domain
+Platform assembly: D:\Develope\BabyMaker\RRGJ_BabyMaker\BM_Data\Managed\GSF.Packet.Json.dll (this message is harmless)
+Loading D:\Develope\BabyMaker\RRGJ_BabyMaker\BM_Data\Managed\GSF.Packet.Json.dll into Unity Child Domain
+Platform assembly: D:\Develope\BabyMaker\RRGJ_BabyMaker\BM_Data\Managed\GSF.Packet.dll (this message is harmless)
+Loading D:\Develope\BabyMaker\RRGJ_BabyMaker\BM_Data\Managed\GSF.Packet.dll into Unity Child Domain
+Platform assembly: D:\Develope\BabyMaker\RRGJ_BabyMaker\BM_Data\Managed\GSF.Ez.Packet.dll (this message is harmless)
+Loading D:\Develope\BabyMaker\RRGJ_BabyMaker\BM_Data\Managed\GSF.Ez.Packet.dll into Unity Child Domain
+Platform assembly: D:\Develope\BabyMaker\RRGJ_BabyMaker\BM_Data\Managed\Newtonsoft.Json.dll (this message is harmless)
+Loading D:\Develope\BabyMaker\RRGJ_BabyMaker\BM_Data\Managed\Newtonsoft.Json.dll into Unity Child Domain
+Platform assembly: D:\Develope\BabyMaker\RRGJ_BabyMaker\BM_Data\Managed\websocket-sharp.dll (this message is harmless)
+Loading D:\Develope\BabyMaker\RRGJ_BabyMaker\BM_Data\Managed\websocket-sharp.dll into Unity Child Domain
+Platform assembly: D:\Develope\BabyMaker\RRGJ_BabyMaker\BM_Data\Managed\JsonFx.Json.dll (this message is harmless)
+Loading D:\Develope\BabyMaker\RRGJ_BabyMaker\BM_Data\Managed\JsonFx.Json.dll into Unity Child Domain
+- Completed reload, in  0.019 seconds
+Platform assembly: D:\Develope\BabyMaker\RRGJ_BabyMaker\BM_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: D:\Develope\BabyMaker\RRGJ_BabyMaker\BM_Data\Managed\System.dll (this message is harmless)
+desktop: 2560x1440 59Hz; virtual: 5120x1441 at -2560,0
+<RI> Initializing input.
+<RI> Input initialized.
+Initialize engine version: 5.6.0f3 (497a0f351392)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1070 (ID=0x1b81)
+    Vendor:   NVIDIA
+    VRAM:     3072 MB
+    Driver:   21.21.13.7866
+Begin MonoManager ReloadAssembly
+Platform assembly: D:\Develope\BabyMaker\RRGJ_BabyMaker\BM_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading D:\Develope\BabyMaker\RRGJ_BabyMaker\BM_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: D:\Develope\BabyMaker\RRGJ_BabyMaker\BM_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading D:\Develope\BabyMaker\RRGJ_BabyMaker\BM_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: D:\Develope\BabyMaker\RRGJ_BabyMaker\BM_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading D:\Develope\BabyMaker\RRGJ_BabyMaker\BM_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: D:\Develope\BabyMaker\RRGJ_BabyMaker\BM_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading D:\Develope\BabyMaker\RRGJ_BabyMaker\BM_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: D:\Develope\BabyMaker\RRGJ_BabyMaker\BM_Data\Managed\UnityEngine.Analytics.dll (this message is harmless)
+Loading D:\Develope\BabyMaker\RRGJ_BabyMaker\BM_Data\Managed\UnityEngine.Analytics.dll into Unity Child Domain
+Platform assembly: D:\Develope\BabyMaker\RRGJ_BabyMaker\BM_Data\Managed\GSF.Packet.Json.dll (this message is harmless)
+Loading D:\Develope\BabyMaker\RRGJ_BabyMaker\BM_Data\Managed\GSF.Packet.Json.dll into Unity Child Domain
+Platform assembly: D:\Develope\BabyMaker\RRGJ_BabyMaker\BM_Data\Managed\GSF.Packet.dll (this message is harmless)
+Loading D:\Develope\BabyMaker\RRGJ_BabyMaker\BM_Data\Managed\GSF.Packet.dll into Unity Child Domain
+Platform assembly: D:\Develope\BabyMaker\RRGJ_BabyMaker\BM_Data\Managed\GSF.Ez.Packet.dll (this message is harmless)
+Loading D:\Develope\BabyMaker\RRGJ_BabyMaker\BM_Data\Managed\GSF.Ez.Packet.dll into Unity Child Domain
+Platform assembly: D:\Develope\BabyMaker\RRGJ_BabyMaker\BM_Data\Managed\Newtonsoft.Json.dll (this message is harmless)
+Loading D:\Develope\BabyMaker\RRGJ_BabyMaker\BM_Data\Managed\Newtonsoft.Json.dll into Unity Child Domain
+Platform assembly: D:\Develope\BabyMaker\RRGJ_BabyMaker\BM_Data\Managed\websocket-sharp.dll (this message is harmless)
+Loading D:\Develope\BabyMaker\RRGJ_BabyMaker\BM_Data\Managed\websocket-sharp.dll into Unity Child Domain
+Platform assembly: D:\Develope\BabyMaker\RRGJ_BabyMaker\BM_Data\Managed\JsonFx.Json.dll (this message is harmless)
+Loading D:\Develope\BabyMaker\RRGJ_BabyMaker\BM_Data\Managed\JsonFx.Json.dll into Unity Child Domain
+- Completed reload, in  0.021 seconds
+Platform assembly: D:\Develope\BabyMaker\RRGJ_BabyMaker\BM_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: D:\Develope\BabyMaker\RRGJ_BabyMaker\BM_Data\Managed\System.dll (this message is harmless)
+desktop: 2560x1440 59Hz; virtual: 5120x1441 at -2560,0
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Initialized touch support.
+The class named 'NetworkWorker' is not derived from MonoBehaviour or ScriptableObject!
+ 
+(Filename:  Line: 1514)
+
+UnloadTime: 0.894761 ms
+Platform assembly: D:\Develope\BabyMaker\RRGJ_BabyMaker\BM_Data\Managed\Mono.Security.dll (this message is harmless)
+OpWebSocketOpen
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Send : GSF.Ez.Packet.JoinPlayer
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+OnWebSocketMessage : {"__type":"GSF.Ez.Packet.WorldInfo, GSF.Ez.Packet","PacketId":1,"RootPlayerId":"673961588","Player":{"__type":"GSF.Ez.Packet.EzPlayer, GSF.Ez.Packet","PlayerId":"673961588","Property":{}},"OtherPlayers":[],"Property":{}}
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+OnWebSocketMessage : {"__type":"GSF.Ez.Packet.JoinPlayer, GSF.Ez.Packet","PacketId":0,"Player":{"__type":"GSF.Ez.Packet.EzPlayer, GSF.Ez.Packet","PlayerId":"1176886881","Property":{}}}
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 3.110022 ms
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 3170.
+Total: 1.657194 ms (FindLiveObjects: 0.142840 ms CreateObjectMapping: 0.055961 ms MarkObjects: 1.436441 ms  DeleteObjects: 0.021333 ms)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Command.SetInputEnable (Boolean isEnable) [0x00000] in <filename unknown>:0 
+  at CommandLayer.SetCommandInputEnable (Boolean isEnable) [0x00000] in <filename unknown>:0 
+  at CommandLayer.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Command.SetInputEnable (Boolean isEnable) [0x00000] in <filename unknown>:0 
+  at CommandLayer.SetCommandInputEnable (Boolean isEnable) [0x00000] in <filename unknown>:0 
+  at CommandLayer.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at CommandLayer.OnClickCommand (Int32 commandIdx) [0x00000] in <filename unknown>:0 
+  at Command.OnClickButton () [0x00000] in <filename unknown>:0 
+  at UnityEngine.Events.InvokableCall.Invoke (System.Object[] args) [0x00000] in <filename unknown>:0 
+  at UnityEngine.Events.InvokableCallList.Invoke (System.Object[] parameters) [0x00000] in <filename unknown>:0 
+  at UnityEngine.Events.UnityEventBase.Invoke (System.Object[] parameters) [0x00000] in <filename unknown>:0 
+  at UnityEngine.Events.UnityEvent.Invoke () [0x00000] in <filename unknown>:0 
+  at UnityEngine.UI.Button.Press () [0x00000] in <filename unknown>:0 
+  at UnityEngine.UI.Button.OnPointerClick (UnityEngine.EventSystems.PointerEventData eventData) [0x00000] in <filename unknown>:0 
+  at UnityEngine.EventSystems.ExecuteEvents.Execute (IPointerClickHandler handler, UnityEngine.EventSystems.BaseEventData eventData) [0x00000] in <filename unknown>:0 
+  at UnityEngine.EventSystems.ExecuteEvents.Execute[IPointerClickHandler] (UnityEngine.GameObject target, UnityEngine.EventSystems.BaseEventData eventData, UnityEngine.EventSystems.EventFunction`1 functor) [0x00000] in <filename unknown>:0 
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+UnityEngine.DebugLogHandler:LogException(Exception, Object)
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMousePress(MouseButtonEventData)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMouseEvent(Int32)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMouseEvent()
+UnityEngine.EventSystems.StandaloneInputModule:Process()
+UnityEngine.EventSystems.EventSystem:Update()
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at CommandLayer.OnClickCommand (Int32 commandIdx) [0x00000] in <filename unknown>:0 
+  at Command.OnClickButton () [0x00000] in <filename unknown>:0 
+  at UnityEngine.Events.InvokableCall.Invoke (System.Object[] args) [0x00000] in <filename unknown>:0 
+  at UnityEngine.Events.InvokableCallList.Invoke (System.Object[] parameters) [0x00000] in <filename unknown>:0 
+  at UnityEngine.Events.UnityEventBase.Invoke (System.Object[] parameters) [0x00000] in <filename unknown>:0 
+  at UnityEngine.Events.UnityEvent.Invoke () [0x00000] in <filename unknown>:0 
+  at UnityEngine.UI.Button.Press () [0x00000] in <filename unknown>:0 
+  at UnityEngine.UI.Button.OnPointerClick (UnityEngine.EventSystems.PointerEventData eventData) [0x00000] in <filename unknown>:0 
+  at UnityEngine.EventSystems.ExecuteEvents.Execute (IPointerClickHandler handler, UnityEngine.EventSystems.BaseEventData eventData) [0x00000] in <filename unknown>:0 
+  at UnityEngine.EventSystems.ExecuteEvents.Execute[IPointerClickHandler] (UnityEngine.GameObject target, UnityEngine.EventSystems.BaseEventData eventData, UnityEngine.EventSystems.EventFunction`1 functor) [0x00000] in <filename unknown>:0 
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+UnityEngine.DebugLogHandler:LogException(Exception, Object)
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMousePress(MouseButtonEventData)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMouseEvent(Int32)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMouseEvent()
+UnityEngine.EventSystems.StandaloneInputModule:Process()
+UnityEngine.EventSystems.EventSystem:Update()
+ 
+(Filename:  Line: -1)
+
+Setting up 2 worker threads for Enlighten.
+  Thread -> id: 17678 -> priority: 1 
+  Thread -> id: 144fc -> priority: 1 
+OnWebSocketClose : 
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+

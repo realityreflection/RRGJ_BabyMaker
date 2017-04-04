@@ -22,6 +22,7 @@ public class SoundController : MonoBehaviour {
 
     public void StopSound()
     {
-        sounds[playedIndex].Stop();
+        if(playedIndex >=0 && playedIndex < sounds.Length)
+            sounds[playedIndex].Stop();
     }
 }

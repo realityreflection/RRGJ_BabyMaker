@@ -3,8 +3,9 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class GameController : MonoBehaviour {
-
+public class GameController : MonoBehaviour
+{
+    public GameModel gameModel;
     public float TurnScore = 20;
     public float TurnTime = 20;
 
@@ -59,9 +60,12 @@ public class GameController : MonoBehaviour {
     {
         //SkillText.enabled = false;
         FailedText.enabled = false;
+    }
+
+    public void StartPlay()
+    {
         MyCmdLayer.GameController = this;
         OpponentCmdLayer.GameController = this;
-
         OnTurnStart();
     }
 
@@ -87,14 +91,17 @@ public class GameController : MonoBehaviour {
 
     public void TryToTurnEnd()
     {
-        if(MyCmdLayer.SelectedCmdIdx * OpponentCmdLayer.SelectedCmdIdx > 0)
-        {
-            OnTurnEnd();
-        }
+        if (MyCmdLayer.SelectedCmdIdx < 0 || OpponentCmdLayer.SelectedCmdIdx < 0)
+            return;
+
+        OnTurnEnd();
     }
 
     void OnTurnStart()
     {
+        SexPanel.Reset();
+        SoundController.StopSound();
+
         isTurnEnd = false;
         SkillText.enabled = false;
         FailedText.enabled = false;
@@ -112,6 +119,8 @@ public class GameController : MonoBehaviour {
         CommandResult(MyCmdLayer.SelectedCmdIdx, OpponentCmdLayer.SelectedCmdIdx);
         StartCoroutine(EndTurn());
     }
+
+
 
     IEnumerator StartTurn()
     {
@@ -131,8 +140,6 @@ public class GameController : MonoBehaviour {
         {
             MyCmdLayer.OnClickCommand(Random.Range(0, 4));
         }
-
-        OnTurnEnd();
     }
 
     IEnumerator EndTurn()
