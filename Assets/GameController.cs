@@ -15,7 +15,8 @@ public class GameController : MonoBehaviour {
     public SexPanel SexPanel;
     public CommandLayer MyCmdLayer;
     public CommandLayer OpponentCmdLayer;
-  
+    public SoundController SoundController;
+
     CombinationData[] combinationData = {
         new CombinationData{ IsSuccess = true, SkillName = "나무젓가락 쪼개기" },
         new CombinationData{ IsSuccess = true, SkillName = "뒤덮치기" },
@@ -56,7 +57,7 @@ public class GameController : MonoBehaviour {
     // Use this for initialization
     void Start()
     {
-        SkillText.enabled = false;
+        //SkillText.enabled = false;
         FailedText.enabled = false;
         MyCmdLayer.GameController = this;
         OpponentCmdLayer.GameController = this;
@@ -66,7 +67,7 @@ public class GameController : MonoBehaviour {
 
     public void CommandResult(int manCmdIdx, int womanCmdIdx)
     {
-        int combiIdx = womanCmdIdx * 5 + manCmdIdx;
+        int combiIdx = manCmdIdx * 5 + womanCmdIdx;
         var combiData = combinationData[combiIdx];
         SexPanel.SetPos(combiIdx);
 
@@ -81,6 +82,7 @@ public class GameController : MonoBehaviour {
         float deltaDir = combiData.IsSuccess ? 1 : -1;
         currentScore += deltaDir * TurnScore;
         ScoreGauge.SetSliderValue(currentScore);
+        SoundController.PlaySound(combiIdx);
     }
 
     public void TryToTurnEnd()
@@ -94,6 +96,8 @@ public class GameController : MonoBehaviour {
     void OnTurnStart()
     {
         isTurnEnd = false;
+        SkillText.enabled = false;
+        FailedText.enabled = false;
         MyCmdLayer.OnTurnStart();
         OpponentCmdLayer.OnTurnStart();
         StartCoroutine(StartTurn());
@@ -101,6 +105,8 @@ public class GameController : MonoBehaviour {
 
     void OnTurnEnd()
     {
+        isTurnEnd = true;
+
         MyCmdLayer.OnTurnEnd();
         OpponentCmdLayer.OnTurnEnd();
         CommandResult(MyCmdLayer.SelectedCmdIdx, OpponentCmdLayer.SelectedCmdIdx);
