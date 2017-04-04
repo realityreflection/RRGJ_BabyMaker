@@ -18,4 +18,9 @@ public class CommandLayer : MonoBehaviour {
             command.SetInputEnable(isEnable);
         }
     }
+
+    public void OnClickCommand(int commandIdx)
+    {
+
+    }
 }
