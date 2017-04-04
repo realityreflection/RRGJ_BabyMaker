@@ -14,10 +14,10 @@ public class GameGauge : MonoBehaviour
     }
 
 
-    public void SetSliderValue(int value)
+    public void SetSliderValue(float value)
     {
         slider.value = value;
-        text.text = value.ToString();
+        text.text = ((int)value).ToString();
     }
 
     public int GetSliderValue()
