@@ -5,29 +5,21 @@ using UnityEngine.UI;
 
 public class Command : MonoBehaviour
 {
-    public Sprite Image;
     public bool IsMaleCommand;
     public int CommandIndex;
 
+    CommandLayer parentLayer;
     Button button;
     Text text;
+
 	// Use this for initialization
 	void Start ()
     {
-        var buttonImage = GetComponent<Image>();
-        foreach (var image in GetComponentsInChildren<Image>())
-        {
-            if(image != buttonImage)
-            {
-                image.sprite = Image;
-                break;
-            }
-        }
-
         button = GetComponentInChildren<Button>();
         text = GetComponentInChildren<Text>();
-
-	}
+        parentLayer = GetComponentInParent<CommandLayer>();
+        text.enabled = false;
+    }
 
     public void SetCoolDown(bool isCoolDown)
     {
@@ -38,5 +30,10 @@ public class Command : MonoBehaviour
     public void SetInputEnable(bool isEnable)
     {
         button.interactable = isEnable;
+    }
+
+    public void OnClickButton()
+    {
+        parentLayer.OnClickCommand(CommandIndex);
     }
 }
