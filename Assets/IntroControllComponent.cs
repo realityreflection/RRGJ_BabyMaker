@@ -9,8 +9,8 @@ public class IntroControllComponent : MonoBehaviour
     public Animation anim;
     public void OnClickStartButton()
     {
-        NetworkWorker.Connect();
         startButton.interactable = false;
         anim.Play();
+        NetworkWorker.Connect();
     }
 }

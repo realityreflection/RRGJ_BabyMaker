@@ -8,14 +8,15 @@ public class GameController : MonoBehaviour
     public GameModel gameModel;
     public float TurnScore = 20;
     public float TurnTime = 20;
+    public int maxTurnCount = 20;
 
     public GameGauge ScoreGauge;
     public Slider TimerSlider;
     public Text SkillText;
     public Text FailedText;
     public SexPanel SexPanel;
-    public CommandLayer MyCmdLayer;
-    public CommandLayer OpponentCmdLayer;
+    public PlayerComponent MyPlayer;
+    public PlayerComponent OtherPlayer;
     public SoundController SoundController;
 
     CombinationData[] combinationData = {
@@ -50,26 +51,93 @@ public class GameController : MonoBehaviour
         new CombinationData{ IsSuccess = true, SkillName = "잔디깎이" },
     };
 
-
+    int currentTurn = 0;
     float currentScore = 100;
     float currentTime = 0;
-    bool isTurnEnd = false;
+    bool isTurnEnd = true;
 
     // Use this for initialization
     void Start()
     {
         //SkillText.enabled = false;
         FailedText.enabled = false;
+        StartCoroutine(FirstStart());
     }
 
-    public void StartPlay()
+    public void OnGameModelUpdate(GameModel model)
     {
-        MyCmdLayer.GameController = this;
-        OpponentCmdLayer.GameController = this;
-        OnTurnStart();
+        currentTurn = model.currentTurnCount;
+        isTurnEnd = model.isTurnEnd;
+        maxTurnCount = model.maxTurnCount;
+        currentScore = model.score;
+
+        if(isTurnEnd)
+        {
+            OnTurnEnd();
+        }
+        else
+        {
+            OnTurnStart();
+        }
     }
 
-    public void CommandResult(int manCmdIdx, int womanCmdIdx)
+    public void OnPlayerModelUpdate(PlayerModel newPlayerModel, bool isMe)
+    {
+        if(isMe)
+            MyPlayer.UpdateWithModel(newPlayerModel);
+        else
+            OtherPlayer.UpdateWithModel(newPlayerModel);
+
+        if(isTurnEnd)
+        {
+            CheckTurnStart();
+        }
+        else
+        {
+            CheckTurnEnd();
+        }
+    }
+
+    void CheckTurnStart()
+    {
+        bool isToStart = MyPlayer.isReady && OtherPlayer.isReady;
+        if(isToStart && NetworkWorker.IsRootPlayer())
+        {
+            var model = new GameModel();
+            model.currentTurnCount = currentTurn;
+            model.isTurnEnd = false;
+            model.maxTurnCount = maxTurnCount;
+            model.score = currentScore;
+
+            NetworkWorker.RequestModifyGameModel(model);
+        }
+    }
+
+    void CheckTurnEnd()
+    {
+        bool isToEnd = (MyPlayer.selectedCmdIdx > -1 && OtherPlayer.selectedCmdIdx > -1);
+        if (isToEnd && NetworkWorker.IsRootPlayer())
+        {
+            //game model update
+            int manCmdIdx = MyPlayer.isMale ? MyPlayer.selectedCmdIdx : OtherPlayer.selectedCmdIdx;
+            int womanCmdIdx = OtherPlayer.isMale ? MyPlayer.selectedCmdIdx : OtherPlayer.selectedCmdIdx;
+            int combiIdx = manCmdIdx * 5 + womanCmdIdx;
+            var combiData = combinationData[combiIdx];
+            float deltaDir = combiData.IsSuccess ? 1 : -1;
+            currentScore += deltaDir * TurnScore;
+            currentTurn++;
+
+            var model = new GameModel();
+            model.currentTurnCount = currentTurn;
+            model.isTurnEnd = true;
+            model.maxTurnCount = maxTurnCount;
+            model.score = currentScore;
+
+            NetworkWorker.RequestModifyGameModel(model);
+        }
+    }
+
+    public void UpdateResult(int manCmdIdx, int womanCmdIdx)
     {
         int combiIdx = manCmdIdx * 5 + womanCmdIdx;
         var combiData = combinationData[combiIdx];
@@ -83,18 +151,8 @@ public class GameController : MonoBehaviour
         FailedText.enabled = !combiData.IsSuccess;
         SkillText.enabled = combiData.IsSuccess;
 
-        float deltaDir = combiData.IsSuccess ? 1 : -1;
-        currentScore += deltaDir * TurnScore;
         ScoreGauge.SetSliderValue(currentScore);
         SoundController.PlaySound(combiIdx);
-    }
-
-    public void TryToTurnEnd()
-    {
-        if (MyCmdLayer.SelectedCmdIdx < 0 || OpponentCmdLayer.SelectedCmdIdx < 0)
-            return;
-
-        OnTurnEnd();
     }
 
     void OnTurnStart()
@@ -102,25 +160,30 @@ public class GameController : MonoBehaviour
         SexPanel.Reset();
         SoundController.StopSound();
 
-        isTurnEnd = false;
         SkillText.enabled = false;
         FailedText.enabled = false;
-        MyCmdLayer.OnTurnStart();
-        OpponentCmdLayer.OnTurnStart();
+        MyPlayer.OnTurnStart();
+        OtherPlayer.OnTurnStart();
         StartCoroutine(StartTurn());
     }
 
     void OnTurnEnd()
     {
-        isTurnEnd = true;
+        int manCmdIdx = MyPlayer.isMale ? MyPlayer.selectedCmdIdx : OtherPlayer.selectedCmdIdx;
+        int womanCmdIdx = OtherPlayer.isMale ? MyPlayer.selectedCmdIdx : OtherPlayer.selectedCmdIdx;
+        UpdateResult(manCmdIdx, womanCmdIdx);
 
-        MyCmdLayer.OnTurnEnd();
-        OpponentCmdLayer.OnTurnEnd();
-        CommandResult(MyCmdLayer.SelectedCmdIdx, OpponentCmdLayer.SelectedCmdIdx);
-        StartCoroutine(EndTurn());
+        MyPlayer.OnTurnEnd();
+        OtherPlayer.OnTurnEnd();
     }
 
-
+    IEnumerator FirstStart()
+    {
+        yield return new WaitForSeconds(2.0f);
+        NetworkWorker.OnGameStart(this);
+        MyPlayer.Init(true);
+        OtherPlayer.Init(false);
+    }
 
     IEnumerator StartTurn()
     {
@@ -131,21 +194,15 @@ public class GameController : MonoBehaviour
             TimerSlider.normalizedValue = currentTime / TurnTime;
             yield return new WaitForSeconds(0.5f);
         }
-        if(OpponentCmdLayer.SelectedCmdIdx < 0)
+        if(OtherPlayer.selectedCmdIdx < 0)
         {
-            OpponentCmdLayer.OnClickCommand(Random.Range(0, 4));
+            OtherPlayer.OnClickCommand(Random.Range(0, 4));
         }
         
-        if(MyCmdLayer.SelectedCmdIdx < 0)
+        if(MyPlayer.selectedCmdIdx < 0)
         {
-            MyCmdLayer.OnClickCommand(Random.Range(0, 4));
+            MyPlayer.OnClickCommand(Random.Range(0, 4));
         }
-    }
-
-    IEnumerator EndTurn()
-    {
-        yield return new WaitForSeconds(3.0f);
-        OnTurnStart();
     }
 }
 

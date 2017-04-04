@@ -8,7 +8,7 @@ public class Command : MonoBehaviour
     public bool IsMaleCommand;
     public int CommandIndex;
 
-    CommandLayer parentLayer;
+    PlayerComponent parentLayer;
     Button button;
     Text text;
     int CooldownedTurn = 0;
@@ -18,9 +18,16 @@ public class Command : MonoBehaviour
     {
         button = GetComponentInChildren<Button>();
         text = GetComponentInChildren<Text>();
-        parentLayer = GetComponentInParent<CommandLayer>();
+        parentLayer = GetComponentInParent<PlayerComponent>();
         text.enabled = false;
+    }
 
+    public void Init(bool isMale, int index, bool isMe)
+    {
+        var spriteName = string.Format("Button/Bt_{0}_0{1}", isMale ? "M" : "W", index + 1);
+        var sprite = Resources.Load<Sprite>(spriteName);
+        button.image.sprite = sprite;
+        button.interactable = isMe;
     }
 
     public void SetInputEnable(bool isEnable)
@@ -31,10 +38,15 @@ public class Command : MonoBehaviour
     public void OnClickButton()
     {
         parentLayer.OnClickCommand(CommandIndex);
-        CooldownedTurn = 1;
     }
 
-    public void OnTurnStart()
+    public void SetCooldown()
+    {
+        CooldownedTurn = 1;
+        text.enabled = true;
+    }
+
+    public void OnTurnStart(bool isMe)
     {
         if(CooldownedTurn > 0)
         {
@@ -45,11 +57,11 @@ public class Command : MonoBehaviour
         else
         {
             text.enabled = false;
-            button.interactable = true;
+            button.interactable = isMe;
         }
     }
 
-    public void OnTurnEnd()
+    public void OnTurnEnd(bool isMe)
     {
         button.interactable = false;
     }
