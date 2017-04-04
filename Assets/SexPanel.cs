@@ -18,12 +18,11 @@ public class SexPanel : MonoBehaviour
 	}
 	
 
-    public void SetPos(int manCmdIdx, int womanCmdIdx)
+    public void SetPos(int combinationIdx)
     {
-        int realIndex = womanCmdIdx * 5 + manCmdIdx;
         for (int i = 0; i < posList.Count; ++i)
         {
-            if(i == realIndex)
+            if(i == combinationIdx)
             {
                 posList[i].SetActive(true);
             }
