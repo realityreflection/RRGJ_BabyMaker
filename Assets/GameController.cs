@@ -58,6 +58,8 @@ public class GameController : MonoBehaviour {
     {
         SkillText.enabled = false;
         FailedText.enabled = false;
+        MyCmdLayer.GameController = this;
+        OpponentCmdLayer.GameController = this;
 
         OnTurnStart();
     }
@@ -79,6 +81,14 @@ public class GameController : MonoBehaviour {
         float deltaDir = combiData.IsSuccess ? 1 : -1;
         currentScore += deltaDir * TurnScore;
         ScoreGauge.SetSliderValue(currentScore);
+    }
+
+    public void TryToTurnEnd()
+    {
+        if(MyCmdLayer.SelectedCmdIdx * OpponentCmdLayer.SelectedCmdIdx > 0)
+        {
+            OnTurnEnd();
+        }
     }
 
     void OnTurnStart()
@@ -106,6 +116,16 @@ public class GameController : MonoBehaviour {
             TimerSlider.normalizedValue = currentTime / TurnTime;
             yield return new WaitForSeconds(0.5f);
         }
+        if(OpponentCmdLayer.SelectedCmdIdx < 0)
+        {
+            OpponentCmdLayer.OnClickCommand(Random.Range(0, 4));
+        }
+        
+        if(MyCmdLayer.SelectedCmdIdx < 0)
+        {
+            MyCmdLayer.OnClickCommand(Random.Range(0, 4));
+        }
+
         OnTurnEnd();
     }
 

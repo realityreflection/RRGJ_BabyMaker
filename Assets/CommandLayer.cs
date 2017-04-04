@@ -3,8 +3,10 @@ using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
 
-public class CommandLayer : MonoBehaviour {
+public class CommandLayer : MonoBehaviour
+{
     List<Command> Commands;
+    public GameController GameController;
     public int SelectedCmdIdx = -1;
 
 	// Use this for initialization
@@ -35,5 +37,6 @@ public class CommandLayer : MonoBehaviour {
     {
         SelectedCmdIdx = commandIdx;
         SetCommandInputEnable(false);
+        GameController.TryToTurnEnd();
     }
 }

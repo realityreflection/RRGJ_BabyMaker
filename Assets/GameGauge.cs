@@ -13,7 +13,6 @@ public class GameGauge : MonoBehaviour
         slider = GetComponent<Slider>();
     }
 
-
     public void SetSliderValue(float value)
     {
         slider.value = value;
