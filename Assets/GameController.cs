@@ -62,7 +62,7 @@ public class GameController : MonoBehaviour {
         MyCmdLayer.GameController = this;
         OpponentCmdLayer.GameController = this;
 
-        StartCoroutine(FirstStart());
+        OnTurnStart();
     }
 
     public void CommandResult(int manCmdIdx, int womanCmdIdx)
@@ -111,12 +111,6 @@ public class GameController : MonoBehaviour {
         OpponentCmdLayer.OnTurnEnd();
         CommandResult(MyCmdLayer.SelectedCmdIdx, OpponentCmdLayer.SelectedCmdIdx);
         StartCoroutine(EndTurn());
-    }
-
-    IEnumerator FirstStart()
-    {
-        yield return new WaitForSeconds(1.0f);
-        OnTurnStart();
     }
 
     IEnumerator StartTurn()
