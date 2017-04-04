@@ -2,7 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class BMPlayerObject : MonoBehaviour {
+public class BMPlayerObject : MonoBehaviour
+{
 
 	// Use this for initialization
 	void Start () {
