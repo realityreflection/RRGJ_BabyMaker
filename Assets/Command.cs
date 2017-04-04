@@ -18,6 +18,7 @@ public class Command : MonoBehaviour
         button = GetComponentInChildren<Button>();
         text = GetComponentInChildren<Text>();
         parentLayer = GetComponentInParent<CommandLayer>();
+        text.enabled = false;
     }
 
     public void SetCoolDown(bool isCoolDown)
