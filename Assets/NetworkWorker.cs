@@ -43,7 +43,6 @@ public class NetworkWorker
         client.onJoinPlayer += OnJoinPlayer;
         client.onModifyWorldProperty += OnModifyWorldProperty;
         client.onModifyPlayerProperty += OnModifyPlayerProperty;
-        client.onDesignatedRootPlayer += OnDesignatedRootPlayer; 
     }
 
     public static void Disconnect()
@@ -125,12 +124,6 @@ public class NetworkWorker
 
     private static void OnDesignatedRootPlayer()
     {
-        if (!IsHost)
-            SceneManager.LoadScene("InGame");
-    }
-
-    private static void OnReceivePacket(BroadcastPacket packet)
-    {
     }
 }
 
@@ -144,6 +137,7 @@ public class GameModel
 
 public class PlayerModel
 {
+    public bool IsHost = false;
     public int selectedCommandIndex = -1;
     public bool isReady = false;
 }

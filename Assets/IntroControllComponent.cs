@@ -7,6 +7,11 @@ public class IntroControllComponent : MonoBehaviour
 {
     public Button startButton;
     public Animation anim;
+
+    void Start()
+    {
+    }
+
     public void OnClickStartButton()
     {
         startButton.interactable = false;
