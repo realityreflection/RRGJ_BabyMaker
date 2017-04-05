@@ -7,6 +7,7 @@ public class GameGauge : MonoBehaviour
 {
     Text text;
     Slider slider;
+
     void Start()
     {
         text = GetComponentInChildren<Text>();

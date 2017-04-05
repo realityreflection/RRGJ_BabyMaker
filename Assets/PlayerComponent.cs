@@ -30,6 +30,7 @@ public class PlayerComponent : MonoBehaviour
         if(isMe)
         {
             var model = new PlayerModel();
+            model.IsHost = NetworkWorker.IsRootPlayer();
             model.isReady = true;
             model.selectedCommandIndex = -1;
             NetworkWorker.RequestModifyPlayerModel(model);
@@ -60,6 +61,7 @@ public class PlayerComponent : MonoBehaviour
         if (isMe)
         {
             var model = new PlayerModel();
+            model.IsHost = NetworkWorker.IsRootPlayer();
             model.isReady = false;
             model.selectedCommandIndex = -1;
             NetworkWorker.RequestModifyPlayerModel(model);
@@ -85,6 +87,7 @@ public class PlayerComponent : MonoBehaviour
         if (isMe)
         {
             var model = new PlayerModel();
+            model.IsHost = NetworkWorker.IsRootPlayer();
             model.isReady = false;
             model.selectedCommandIndex = commandIdx;
             NetworkWorker.RequestModifyPlayerModel(model);
@@ -95,6 +98,7 @@ public class PlayerComponent : MonoBehaviour
     {
         yield return new WaitForSeconds(5.0f);
         var model = new PlayerModel();
+        model.IsHost = NetworkWorker.IsRootPlayer();
         model.isReady = true;
         model.selectedCommandIndex = -1;
         NetworkWorker.RequestModifyPlayerModel(model);
