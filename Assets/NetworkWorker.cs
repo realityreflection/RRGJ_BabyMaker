@@ -32,7 +32,7 @@ public class NetworkWorker
         playerId = (new System.Random()).Next().ToString();
 
         client = EzClient.Connect(
-            "ws://localhost:9916",
+            "ws://192.168.1.13:9916",
             playerId,
             new Dictionary<string, object>()
             {
@@ -44,6 +44,15 @@ public class NetworkWorker
         client.onModifyWorldProperty += OnModifyWorldProperty;
         client.onModifyPlayerProperty += OnModifyPlayerProperty;
         client.onDesignatedRootPlayer += OnDesignatedRootPlayer; 
+    }
+
+    public static void Disconnect()
+    {
+        client.Disconnect();
+        state = NetworkState.None;
+        client = null;
+        gameController = null;
+        IsHost = false;
     }
 
     public static void OnGameStart(GameController _gameController)
@@ -128,7 +137,7 @@ public class NetworkWorker
 public class GameModel
 {
     public bool isTurnEnd = false;
-    public int maxTurnCount = 20;
+    public int maxTurnCount = 2;
     public int currentTurnCount = 0;
     public float score = 100;
 }
