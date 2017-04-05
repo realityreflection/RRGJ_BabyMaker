@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class GameController : MonoBehaviour
@@ -8,16 +9,18 @@ public class GameController : MonoBehaviour
     public GameModel gameModel;
     public float TurnScore = 20;
     public float TurnTime = 20;
-    public int maxTurnCount = 20;
+    public int maxTurnCount = 2;
 
     public GameGauge ScoreGauge;
     public Slider TimerSlider;
     public Text SkillText;
     public Text FailedText;
+    public Text TurnText;
     public SexPanel SexPanel;
     public PlayerComponent MyPlayer;
     public PlayerComponent OtherPlayer;
     public SoundController SoundController;
+    public ResultComponent ResultComponent;
 
     CombinationData[] combinationData = {
         new CombinationData{ IsSuccess = true, SkillName = "나무젓가락 쪼개기" },
@@ -137,6 +140,16 @@ public class GameController : MonoBehaviour
         }
     }
 
+    bool CheckGameEnd()
+    {
+        if(currentTurn >= maxTurnCount || currentScore <= 0)
+        {
+            ResultComponent.ShowResult(currentScore >= 0, (int)currentScore);
+            return true;
+        }
+        return false;
+    }
+
     public void UpdateResult(int manCmdIdx, int womanCmdIdx)
     {
         int combiIdx = manCmdIdx * 5 + womanCmdIdx;
@@ -151,8 +164,16 @@ public class GameController : MonoBehaviour
         FailedText.enabled = !combiData.IsSuccess;
         SkillText.enabled = combiData.IsSuccess;
 
+        TurnText.text = string.Format("{0} / {1}", currentTurn, maxTurnCount);
+
         ScoreGauge.SetSliderValue(currentScore);
         SoundController.PlaySound(combiIdx);
+    }
+
+    public void OnGameEnd()
+    {
+        NetworkWorker.Disconnect();
+        SceneManager.LoadScene("Intro");
     }
 
     void OnTurnStart()
@@ -162,6 +183,11 @@ public class GameController : MonoBehaviour
 
         SkillText.enabled = false;
         FailedText.enabled = false;
+        TurnText.text = string.Format("{0} / {1}", currentTurn, maxTurnCount);
+
+        if (CheckGameEnd())
+            return;
+
         MyPlayer.OnTurnStart();
         OtherPlayer.OnTurnStart();
         StartCoroutine(StartTurn());
