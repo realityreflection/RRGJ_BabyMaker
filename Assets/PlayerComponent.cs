@@ -83,6 +83,7 @@ public class PlayerComponent : MonoBehaviour
 
     public void OnClickCommand(int commandIdx)
     {
+        GameController.SoundController.PlayButtonSound(isMale);
         SetCommandInputEnable(false);
         if (isMe)
         {

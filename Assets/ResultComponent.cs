@@ -18,6 +18,7 @@ public class ResultComponent : MonoBehaviour {
     {
         isSuccess = _isSuccess;
         score = _score;
+        Dim.color = new Color(Dim.color.r, Dim.color.g, Dim.color.b, 0.5f);
         StartCoroutine(ShowResulting());
     }
 
@@ -30,7 +31,6 @@ public class ResultComponent : MonoBehaviour {
         SuccessEffect.SetActive(isSuccess);
         FailedEffect.SetActive(!isSuccess);
         yield return new WaitForSeconds(3.0f);
-        Dim.color = new Color(Dim.color.r, Dim.color.g, Dim.color.b, 0.5f);
         Popup.Show(isSuccess, score);
     }
 }

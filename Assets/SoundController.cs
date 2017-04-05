@@ -3,26 +3,40 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class SoundController : MonoBehaviour {
-    AudioSource[] sounds = null;
+    AudioClip[] PosSound = null;
+    AudioClip MaleSound = null;
+    AudioClip FemaleSound = null;
+    AudioSource Source;
     int playedIndex = -1;
 	// Use this for initialization
 	void Start () {
-        sounds = GetComponentsInChildren<AudioSource>();
-        foreach(var sound in sounds)
-        {
-            sound.Stop();
-        }
-	}
-
-    public void PlaySound(int soundIdx)
-    {
-        sounds[soundIdx].Play();
-        playedIndex = soundIdx;
+        PosSound = Resources.LoadAll<AudioClip>("Sounds/Pos");
+        MaleSound = Resources.Load<AudioClip>("Sounds/Button/button_man");
+        FemaleSound = Resources.Load<AudioClip>("Sounds/Button/button_woman");
+        Source = GetComponent<AudioSource>();
+        Source.Stop();
     }
 
-    public void StopSound()
+    public void PlayPosSound(int posIdx)
     {
-        if(playedIndex >=0 && playedIndex < sounds.Length)
-            sounds[playedIndex].Stop();
+        Source.clip = PosSound[posIdx];
+        Source.Play();
+    }
+
+    public void StopPosSound()
+    {
+        Source.Stop();
+    }
+
+    public void PlayButtonSound(bool isMale)
+    {
+        Source.Stop();
+
+        if (isMale)
+            Source.clip = MaleSound;
+        else
+            Source.clip = FemaleSound;
+
+        Source.Play();
     }
 }

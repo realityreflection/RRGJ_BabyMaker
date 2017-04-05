@@ -21,6 +21,7 @@ public class GameController : MonoBehaviour
     public PlayerComponent OtherPlayer;
     public SoundController SoundController;
     public ResultComponent ResultComponent;
+    public GameObject GameStartEffect;
 
     CombinationData[] combinationData = {
         new CombinationData{ IsSuccess = true, SkillName = "나무젓가락 쪼개기" },
@@ -62,7 +63,8 @@ public class GameController : MonoBehaviour
     // Use this for initialization
     void Start()
     {
-        //SkillText.enabled = false;
+        GameStartEffect.SetActive(true);
+        SkillText.enabled = false;
         FailedText.enabled = false;
         StartCoroutine(FirstStart());
     }
@@ -167,7 +169,7 @@ public class GameController : MonoBehaviour
         TurnText.text = string.Format("{0} / {1}", currentTurn, maxTurnCount);
 
         ScoreGauge.SetSliderValue(currentScore);
-        SoundController.PlaySound(combiIdx);
+        SoundController.PlayPosSound(combiIdx);
     }
 
     public void OnGameEnd()
@@ -178,8 +180,10 @@ public class GameController : MonoBehaviour
 
     void OnTurnStart()
     {
+        GameStartEffect.SetActive(false);
+
         SexPanel.Reset();
-        SoundController.StopSound();
+        SoundController.StopPosSound();
 
         SkillText.enabled = false;
         FailedText.enabled = false;
@@ -195,9 +199,7 @@ public class GameController : MonoBehaviour
 
     void OnTurnEnd()
     {
-        int manCmdIdx = MyPlayer.isMale ? MyPlayer.selectedCmdIdx : OtherPlayer.selectedCmdIdx;
-        int womanCmdIdx = OtherPlayer.isMale ? MyPlayer.selectedCmdIdx : OtherPlayer.selectedCmdIdx;
-        UpdateResult(manCmdIdx, womanCmdIdx);
+        StartCoroutine(DelayedTurnEndEffect());
 
         MyPlayer.OnTurnEnd();
         OtherPlayer.OnTurnEnd();
@@ -229,6 +231,14 @@ public class GameController : MonoBehaviour
         {
             MyPlayer.OnClickCommand(Random.Range(0, 4));
         }
+    }
+
+    IEnumerator DelayedTurnEndEffect()
+    {
+        yield return new WaitForSeconds(0.5f);
+        int manCmdIdx = MyPlayer.isMale ? MyPlayer.selectedCmdIdx : OtherPlayer.selectedCmdIdx;
+        int womanCmdIdx = OtherPlayer.isMale ? MyPlayer.selectedCmdIdx : OtherPlayer.selectedCmdIdx;
+        UpdateResult(manCmdIdx, womanCmdIdx);
     }
 }
 
