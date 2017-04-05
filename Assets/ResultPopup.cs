@@ -3,8 +3,9 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class ResultPopup : MonoBehaviour {
-    public Button Button;
+public class ResultPopup : MonoBehaviour
+{
+    public GameObject Button;
     public Image PanelBg;
     public Text IsSuccessText;
     public Text ScoreText;
@@ -13,6 +14,14 @@ public class ResultPopup : MonoBehaviour {
     bool isSuccess = false;
     int score = 0;
 
+    void Start()
+    {
+        IsSuccessText.enabled = false;
+        ScoreText.enabled = false;
+        ScoreLabelText.enabled = false;
+    }
+
+
     public void Show(bool _isSuccess, int _score)
     {
         enabled = true;
@@ -20,6 +29,19 @@ public class ResultPopup : MonoBehaviour {
         score = _score;
         StartCoroutine(Showing());
     }
+
+    void ShowStuff()
+    {
+        IsSuccessText.text = isSuccess ? "BABY SUCCESS!" : "BABY FAILED...";
+        ScoreText.text = score.ToString();
+
+        IsSuccessText.enabled = true;
+        ScoreText.enabled = true;
+        ScoreLabelText.enabled = true;
+        Button.SetActive(true);
+    }
+
+
 
     IEnumerator Showing()
     {
@@ -32,12 +54,6 @@ public class ResultPopup : MonoBehaviour {
             yield return new WaitForSeconds(0.1f);
         }
 
-        Button.enabled = true;
-        IsSuccessText.enabled = true;
-        ScoreText.enabled = true;
-        ScoreLabelText.enabled = true;
-
-        IsSuccessText.text = isSuccess ? "BABY SUCCESS!" : "BABY FAILED...";
-        ScoreText.text = score.ToString();
+        ShowStuff();
     }
 }
