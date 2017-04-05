@@ -144,7 +144,7 @@ public class GameController : MonoBehaviour
     {
         if(currentTurn >= maxTurnCount || currentScore <= 0)
         {
-            ResultComponent.ShowResult(currentScore >= 200, (int)currentScore);
+            ResultComponent.ShowResult(currentScore >= 0, (int)currentScore);
             return true;
         }
         return false;
