@@ -99,6 +99,7 @@ public class NetworkWorker
         if (state != NetworkState.Ready)
             return;
 
+        IsHost = client.isRootPlayer;
         SceneManager.LoadScene("InGame");
     }
 
