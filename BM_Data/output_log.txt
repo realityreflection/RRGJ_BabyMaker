@@ -5,39 +5,39 @@ Direct3D:
     Renderer: NVIDIA GeForce GTX 1070 (ID=0x1b81)
     Vendor:   NVIDIA
     VRAM:     3072 MB
-    Driver:   21.21.13.7866
+    Driver:   21.21.13.7878
 Begin MonoManager ReloadAssembly
-Platform assembly: D:\Develope\BabyMaker\RRGJ_BabyMaker\BM_Data\Managed\UnityEngine.dll (this message is harmless)
-Loading D:\Develope\BabyMaker\RRGJ_BabyMaker\BM_Data\Managed\UnityEngine.dll into Unity Child Domain
-Platform assembly: D:\Develope\BabyMaker\RRGJ_BabyMaker\BM_Data\Managed\Assembly-CSharp.dll (this message is harmless)
-Loading D:\Develope\BabyMaker\RRGJ_BabyMaker\BM_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
-Platform assembly: D:\Develope\BabyMaker\RRGJ_BabyMaker\BM_Data\Managed\UnityEngine.UI.dll (this message is harmless)
-Loading D:\Develope\BabyMaker\RRGJ_BabyMaker\BM_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
-Platform assembly: D:\Develope\BabyMaker\RRGJ_BabyMaker\BM_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
-Loading D:\Develope\BabyMaker\RRGJ_BabyMaker\BM_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
-Platform assembly: D:\Develope\BabyMaker\RRGJ_BabyMaker\BM_Data\Managed\UnityEngine.Analytics.dll (this message is harmless)
-Loading D:\Develope\BabyMaker\RRGJ_BabyMaker\BM_Data\Managed\UnityEngine.Analytics.dll into Unity Child Domain
-Platform assembly: D:\Develope\BabyMaker\RRGJ_BabyMaker\BM_Data\Managed\GSF.Ez.Packet.dll (this message is harmless)
-Loading D:\Develope\BabyMaker\RRGJ_BabyMaker\BM_Data\Managed\GSF.Ez.Packet.dll into Unity Child Domain
-Platform assembly: D:\Develope\BabyMaker\RRGJ_BabyMaker\BM_Data\Managed\GSF.Packet.dll (this message is harmless)
-Loading D:\Develope\BabyMaker\RRGJ_BabyMaker\BM_Data\Managed\GSF.Packet.dll into Unity Child Domain
-Platform assembly: D:\Develope\BabyMaker\RRGJ_BabyMaker\BM_Data\Managed\GSF.Packet.Json.dll (this message is harmless)
-Loading D:\Develope\BabyMaker\RRGJ_BabyMaker\BM_Data\Managed\GSF.Packet.Json.dll into Unity Child Domain
-Platform assembly: D:\Develope\BabyMaker\RRGJ_BabyMaker\BM_Data\Managed\JsonFx.Json.dll (this message is harmless)
-Loading D:\Develope\BabyMaker\RRGJ_BabyMaker\BM_Data\Managed\JsonFx.Json.dll into Unity Child Domain
-Platform assembly: D:\Develope\BabyMaker\RRGJ_BabyMaker\BM_Data\Managed\Newtonsoft.Json.dll (this message is harmless)
-Loading D:\Develope\BabyMaker\RRGJ_BabyMaker\BM_Data\Managed\Newtonsoft.Json.dll into Unity Child Domain
-Platform assembly: D:\Develope\BabyMaker\RRGJ_BabyMaker\BM_Data\Managed\websocket-sharp.dll (this message is harmless)
-Loading D:\Develope\BabyMaker\RRGJ_BabyMaker\BM_Data\Managed\websocket-sharp.dll into Unity Child Domain
-- Completed reload, in  0.019 seconds
-Platform assembly: D:\Develope\BabyMaker\RRGJ_BabyMaker\BM_Data\Managed\System.Core.dll (this message is harmless)
-Platform assembly: D:\Develope\BabyMaker\RRGJ_BabyMaker\BM_Data\Managed\System.dll (this message is harmless)
-desktop: 2560x1440 59Hz; virtual: 5120x1441 at -2560,0
+Platform assembly: D:\BabyMaker\BM_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading D:\BabyMaker\BM_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: D:\BabyMaker\BM_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading D:\BabyMaker\BM_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: D:\BabyMaker\BM_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading D:\BabyMaker\BM_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: D:\BabyMaker\BM_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading D:\BabyMaker\BM_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: D:\BabyMaker\BM_Data\Managed\UnityEngine.Analytics.dll (this message is harmless)
+Loading D:\BabyMaker\BM_Data\Managed\UnityEngine.Analytics.dll into Unity Child Domain
+Platform assembly: D:\BabyMaker\BM_Data\Managed\GSF.Ez.Packet.dll (this message is harmless)
+Loading D:\BabyMaker\BM_Data\Managed\GSF.Ez.Packet.dll into Unity Child Domain
+Platform assembly: D:\BabyMaker\BM_Data\Managed\GSF.Packet.dll (this message is harmless)
+Loading D:\BabyMaker\BM_Data\Managed\GSF.Packet.dll into Unity Child Domain
+Platform assembly: D:\BabyMaker\BM_Data\Managed\GSF.Packet.Json.dll (this message is harmless)
+Loading D:\BabyMaker\BM_Data\Managed\GSF.Packet.Json.dll into Unity Child Domain
+Platform assembly: D:\BabyMaker\BM_Data\Managed\JsonFx.Json.dll (this message is harmless)
+Loading D:\BabyMaker\BM_Data\Managed\JsonFx.Json.dll into Unity Child Domain
+Platform assembly: D:\BabyMaker\BM_Data\Managed\Newtonsoft.Json.dll (this message is harmless)
+Loading D:\BabyMaker\BM_Data\Managed\Newtonsoft.Json.dll into Unity Child Domain
+Platform assembly: D:\BabyMaker\BM_Data\Managed\websocket-sharp.dll (this message is harmless)
+Loading D:\BabyMaker\BM_Data\Managed\websocket-sharp.dll into Unity Child Domain
+- Completed reload, in  0.023 seconds
+Platform assembly: D:\BabyMaker\BM_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: D:\BabyMaker\BM_Data\Managed\System.dll (this message is harmless)
+desktop: 2560x1440 59Hz; virtual: 5120x1440 at 0,0
 <RI> Initializing input.
 <RI> Input initialized.
 <RI> Initialized touch support.
-UnloadTime: 1.056152 ms
-Platform assembly: D:\Develope\BabyMaker\RRGJ_BabyMaker\BM_Data\Managed\Mono.Security.dll (this message is harmless)
+UnloadTime: 3.565367 ms
+Platform assembly: D:\BabyMaker\BM_Data\Managed\Mono.Security.dll (this message is harmless)
 OpWebSocketOpen
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
@@ -46,15 +46,19 @@ Send : GSF.Ez.Packet.JoinPlayer
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-OnWebSocketMessage : {"__type":"GSF.Ez.Packet.WorldInfo, GSF.Ez.Packet","PacketId":1,"RootPlayerId":"769795255","Player":{"__type":"GSF.Ez.Packet.EzPlayer, GSF.Ez.Packet","PlayerId":"2070416415","Property":{}},"OtherPlayers":[{"__type":"GSF.Ez.Packet.EzPlayer, GSF.Ez.Packet","PlayerId":"769795255","Property":{}}],"Property":{"GameModel":"{\"isTurnEnd\":false,\"maxTurnCount\":2,\"currentTurnCount\":2,\"score\":100.0}"}}
+OnWebSocketMessage : {"__type":"GSF.Ez.Packet.WorldInfo, GSF.Ez.Packet","PacketId":1,"RootPlayerId":"955765334","Player":{"__type":"GSF.Ez.Packet.EzPlayer, GSF.Ez.Packet","PlayerId":"955765334","Property":{}},"OtherPlayers":[],"Property":{"GameModel":"{\"isTurnEnd\":false,\"maxTurnCount\":10,\"currentTurnCount\":0,\"score\":100.0}"}}
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+OnWebSocketMessage : {"__type":"GSF.Ez.Packet.JoinPlayer, GSF.Ez.Packet","PacketId":0,"Player":{"__type":"GSF.Ez.Packet.EzPlayer, GSF.Ez.Packet","PlayerId":"1598728096","Property":{}}}
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
 Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 3.453209 ms
+UnloadTime: 3.346626 ms
 
 Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 3215.
-Total: 1.660595 ms (FindLiveObjects: 0.142221 ms CreateObjectMapping: 0.054724 ms MarkObjects: 1.442624 ms  DeleteObjects: 0.020714 ms)
+Total: 1.475303 ms (FindLiveObjects: 0.129802 ms CreateObjectMapping: 0.050478 ms MarkObjects: 1.276693 ms  DeleteObjects: 0.018028 ms)
 
 NullReferenceException: Object reference not set to an instance of an object
   at Command.SetInputEnable (Boolean isEnable) [0x00000] in <filename unknown>:0 
@@ -70,519 +74,17 @@ NullReferenceException: Object reference not set to an instance of an object
  
 (Filename:  Line: -1)
 
-Platform assembly: D:\Develope\BabyMaker\RRGJ_BabyMaker\BM_Data\Managed\System.Xml.dll (this message is harmless)
-Platform assembly: D:\Develope\BabyMaker\RRGJ_BabyMaker\BM_Data\Managed\System.Data.dll (this message is harmless)
+OnWebSocketMessage : {"__type":"GSF.Ez.Packet.ModifyPlayerProperty, GSF.Ez.Packet","PacketId":0,"Player":{"__type":"GSF.Ez.Packet.EzPlayer, GSF.Ez.Packet","PlayerId":"1598728096","Property":{"PlayerModel":"{\"selectedCommandIndex\":-1,\"isReady\":true}"}},"Property":{"PlayerModel":"{\"selectedCommandIndex\":-1,\"isReady\":true}"},"RemovedKeys":null,"Slient":false}
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Platform assembly: D:\BabyMaker\BM_Data\Managed\System.Xml.dll (this message is harmless)
+Platform assembly: D:\BabyMaker\BM_Data\Managed\System.Data.dll (this message is harmless)
 Send : GSF.Ez.Packet.ModifyPlayerProperty
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-OnWebSocketMessage : {"__type":"GSF.Ez.Packet.ModifyPlayerProperty, GSF.Ez.Packet","PacketId":0,"Player":{"__type":"GSF.Ez.Packet.EzPlayer, GSF.Ez.Packet","PlayerId":"2070416415","Property":{"PlayerModel":"{\"selectedCommandIndex\":-1,\"isReady\":true}"}},"Property":{"PlayerModel":"{\"selectedCommandIndex\":-1,\"isReady\":true}"},"RemovedKeys":null,"Slient":false}
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-OnWebSocketMessage : {"__type":"GSF.Ez.Packet.ModifyPlayerProperty, GSF.Ez.Packet","PacketId":0,"Player":{"__type":"GSF.Ez.Packet.EzPlayer, GSF.Ez.Packet","PlayerId":"769795255","Property":{"PlayerModel":"{\"selectedCommandIndex\":-1,\"isReady\":true}"}},"Property":{"PlayerModel":"{\"selectedCommandIndex\":-1,\"isReady\":true}"},"RemovedKeys":null,"Slient":false}
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-OnWebSocketMessage : {"__type":"GSF.Ez.Packet.ModifyWorldProperty, GSF.Ez.Packet","PacketId":0,"Property":{"GameModel":"{\"isTurnEnd\":false,\"maxTurnCount\":10,\"currentTurnCount\":0,\"score\":100.0}"},"RemovedKeys":null,"Slient":false}
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-OnWebSocketMessage : {"__type":"GSF.Ez.Packet.ModifyPlayerProperty, GSF.Ez.Packet","PacketId":0,"Player":{"__type":"GSF.Ez.Packet.EzPlayer, GSF.Ez.Packet","PlayerId":"769795255","Property":{"PlayerModel":"{\"selectedCommandIndex\":-1,\"isReady\":false}"}},"Property":{"PlayerModel":"{\"selectedCommandIndex\":-1,\"isReady\":false}"},"RemovedKeys":null,"Slient":false}
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Send : GSF.Ez.Packet.ModifyPlayerProperty
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-OnWebSocketMessage : {"__type":"GSF.Ez.Packet.ModifyPlayerProperty, GSF.Ez.Packet","PacketId":0,"Player":{"__type":"GSF.Ez.Packet.EzPlayer, GSF.Ez.Packet","PlayerId":"2070416415","Property":{"PlayerModel":"{\"selectedCommandIndex\":-1,\"isReady\":false}"}},"Property":{"PlayerModel":"{\"selectedCommandIndex\":-1,\"isReady\":false}"},"RemovedKeys":null,"Slient":false}
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Send : GSF.Ez.Packet.ModifyPlayerProperty
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-OnWebSocketMessage : {"__type":"GSF.Ez.Packet.ModifyPlayerProperty, GSF.Ez.Packet","PacketId":0,"Player":{"__type":"GSF.Ez.Packet.EzPlayer, GSF.Ez.Packet","PlayerId":"2070416415","Property":{"PlayerModel":"{\"selectedCommandIndex\":1,\"isReady\":false}"}},"Property":{"PlayerModel":"{\"selectedCommandIndex\":1,\"isReady\":false}"},"RemovedKeys":null,"Slient":false}
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-OnWebSocketMessage : {"__type":"GSF.Ez.Packet.ModifyPlayerProperty, GSF.Ez.Packet","PacketId":0,"Player":{"__type":"GSF.Ez.Packet.EzPlayer, GSF.Ez.Packet","PlayerId":"769795255","Property":{"PlayerModel":"{\"selectedCommandIndex\":0,\"isReady\":false}"}},"Property":{"PlayerModel":"{\"selectedCommandIndex\":0,\"isReady\":false}"},"RemovedKeys":null,"Slient":false}
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-OnWebSocketMessage : {"__type":"GSF.Ez.Packet.ModifyWorldProperty, GSF.Ez.Packet","PacketId":0,"Property":{"GameModel":"{\"isTurnEnd\":true,\"maxTurnCount\":10,\"currentTurnCount\":1,\"score\":120.0}"},"RemovedKeys":null,"Slient":false}
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-OnWebSocketMessage : {"__type":"GSF.Ez.Packet.ModifyPlayerProperty, GSF.Ez.Packet","PacketId":0,"Player":{"__type":"GSF.Ez.Packet.EzPlayer, GSF.Ez.Packet","PlayerId":"769795255","Property":{"PlayerModel":"{\"selectedCommandIndex\":-1,\"isReady\":true}"}},"Property":{"PlayerModel":"{\"selectedCommandIndex\":-1,\"isReady\":true}"},"RemovedKeys":null,"Slient":false}
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Send : GSF.Ez.Packet.ModifyPlayerProperty
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-OnWebSocketMessage : {"__type":"GSF.Ez.Packet.ModifyPlayerProperty, GSF.Ez.Packet","PacketId":0,"Player":{"__type":"GSF.Ez.Packet.EzPlayer, GSF.Ez.Packet","PlayerId":"2070416415","Property":{"PlayerModel":"{\"selectedCommandIndex\":-1,\"isReady\":true}"}},"Property":{"PlayerModel":"{\"selectedCommandIndex\":-1,\"isReady\":true}"},"RemovedKeys":null,"Slient":false}
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-OnWebSocketMessage : {"__type":"GSF.Ez.Packet.ModifyWorldProperty, GSF.Ez.Packet","PacketId":0,"Property":{"GameModel":"{\"isTurnEnd\":false,\"maxTurnCount\":10,\"currentTurnCount\":1,\"score\":120.0}"},"RemovedKeys":null,"Slient":false}
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-OnWebSocketMessage : {"__type":"GSF.Ez.Packet.ModifyPlayerProperty, GSF.Ez.Packet","PacketId":0,"Player":{"__type":"GSF.Ez.Packet.EzPlayer, GSF.Ez.Packet","PlayerId":"769795255","Property":{"PlayerModel":"{\"selectedCommandIndex\":-1,\"isReady\":false}"}},"Property":{"PlayerModel":"{\"selectedCommandIndex\":-1,\"isReady\":false}"},"RemovedKeys":null,"Slient":false}
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Send : GSF.Ez.Packet.ModifyPlayerProperty
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-OnWebSocketMessage : {"__type":"GSF.Ez.Packet.ModifyPlayerProperty, GSF.Ez.Packet","PacketId":0,"Player":{"__type":"GSF.Ez.Packet.EzPlayer, GSF.Ez.Packet","PlayerId":"2070416415","Property":{"PlayerModel":"{\"selectedCommandIndex\":-1,\"isReady\":false}"}},"Property":{"PlayerModel":"{\"selectedCommandIndex\":-1,\"isReady\":false}"},"RemovedKeys":null,"Slient":false}
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Send : GSF.Ez.Packet.ModifyPlayerProperty
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-OnWebSocketMessage : {"__type":"GSF.Ez.Packet.ModifyPlayerProperty, GSF.Ez.Packet","PacketId":0,"Player":{"__type":"GSF.Ez.Packet.EzPlayer, GSF.Ez.Packet","PlayerId":"2070416415","Property":{"PlayerModel":"{\"selectedCommandIndex\":3,\"isReady\":false}"}},"Property":{"PlayerModel":"{\"selectedCommandIndex\":3,\"isReady\":false}"},"RemovedKeys":null,"Slient":false}
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-OnWebSocketMessage : {"__type":"GSF.Ez.Packet.ModifyPlayerProperty, GSF.Ez.Packet","PacketId":0,"Player":{"__type":"GSF.Ez.Packet.EzPlayer, GSF.Ez.Packet","PlayerId":"769795255","Property":{"PlayerModel":"{\"selectedCommandIndex\":2,\"isReady\":false}"}},"Property":{"PlayerModel":"{\"selectedCommandIndex\":2,\"isReady\":false}"},"RemovedKeys":null,"Slient":false}
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-OnWebSocketMessage : {"__type":"GSF.Ez.Packet.ModifyWorldProperty, GSF.Ez.Packet","PacketId":0,"Property":{"GameModel":"{\"isTurnEnd\":true,\"maxTurnCount\":10,\"currentTurnCount\":2,\"score\":140.0}"},"RemovedKeys":null,"Slient":false}
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-OnWebSocketMessage : {"__type":"GSF.Ez.Packet.ModifyPlayerProperty, GSF.Ez.Packet","PacketId":0,"Player":{"__type":"GSF.Ez.Packet.EzPlayer, GSF.Ez.Packet","PlayerId":"769795255","Property":{"PlayerModel":"{\"selectedCommandIndex\":-1,\"isReady\":true}"}},"Property":{"PlayerModel":"{\"selectedCommandIndex\":-1,\"isReady\":true}"},"RemovedKeys":null,"Slient":false}
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Send : GSF.Ez.Packet.ModifyPlayerProperty
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-OnWebSocketMessage : {"__type":"GSF.Ez.Packet.ModifyPlayerProperty, GSF.Ez.Packet","PacketId":0,"Player":{"__type":"GSF.Ez.Packet.EzPlayer, GSF.Ez.Packet","PlayerId":"2070416415","Property":{"PlayerModel":"{\"selectedCommandIndex\":-1,\"isReady\":true}"}},"Property":{"PlayerModel":"{\"selectedCommandIndex\":-1,\"isReady\":true}"},"RemovedKeys":null,"Slient":false}
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-OnWebSocketMessage : {"__type":"GSF.Ez.Packet.ModifyWorldProperty, GSF.Ez.Packet","PacketId":0,"Property":{"GameModel":"{\"isTurnEnd\":false,\"maxTurnCount\":10,\"currentTurnCount\":2,\"score\":140.0}"},"RemovedKeys":null,"Slient":false}
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Send : GSF.Ez.Packet.ModifyPlayerProperty
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-OnWebSocketMessage : {"__type":"GSF.Ez.Packet.ModifyPlayerProperty, GSF.Ez.Packet","PacketId":0,"Player":{"__type":"GSF.Ez.Packet.EzPlayer, GSF.Ez.Packet","PlayerId":"769795255","Property":{"PlayerModel":"{\"selectedCommandIndex\":-1,\"isReady\":false}"}},"Property":{"PlayerModel":"{\"selectedCommandIndex\":-1,\"isReady\":false}"},"RemovedKeys":null,"Slient":false}
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-OnWebSocketMessage : {"__type":"GSF.Ez.Packet.ModifyPlayerProperty, GSF.Ez.Packet","PacketId":0,"Player":{"__type":"GSF.Ez.Packet.EzPlayer, GSF.Ez.Packet","PlayerId":"2070416415","Property":{"PlayerModel":"{\"selectedCommandIndex\":-1,\"isReady\":false}"}},"Property":{"PlayerModel":"{\"selectedCommandIndex\":-1,\"isReady\":false}"},"RemovedKeys":null,"Slient":false}
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Send : GSF.Ez.Packet.ModifyPlayerProperty
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-OnWebSocketMessage : {"__type":"GSF.Ez.Packet.ModifyPlayerProperty, GSF.Ez.Packet","PacketId":0,"Player":{"__type":"GSF.Ez.Packet.EzPlayer, GSF.Ez.Packet","PlayerId":"2070416415","Property":{"PlayerModel":"{\"selectedCommandIndex\":4,\"isReady\":false}"}},"Property":{"PlayerModel":"{\"selectedCommandIndex\":4,\"isReady\":false}"},"RemovedKeys":null,"Slient":false}
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-OnWebSocketMessage : {"__type":"GSF.Ez.Packet.ModifyPlayerProperty, GSF.Ez.Packet","PacketId":0,"Player":{"__type":"GSF.Ez.Packet.EzPlayer, GSF.Ez.Packet","PlayerId":"769795255","Property":{"PlayerModel":"{\"selectedCommandIndex\":4,\"isReady\":false}"}},"Property":{"PlayerModel":"{\"selectedCommandIndex\":4,\"isReady\":false}"},"RemovedKeys":null,"Slient":false}
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-OnWebSocketMessage : {"__type":"GSF.Ez.Packet.ModifyWorldProperty, GSF.Ez.Packet","PacketId":0,"Property":{"GameModel":"{\"isTurnEnd\":true,\"maxTurnCount\":10,\"currentTurnCount\":3,\"score\":160.0}"},"RemovedKeys":null,"Slient":false}
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-OnWebSocketMessage : {"__type":"GSF.Ez.Packet.ModifyPlayerProperty, GSF.Ez.Packet","PacketId":0,"Player":{"__type":"GSF.Ez.Packet.EzPlayer, GSF.Ez.Packet","PlayerId":"769795255","Property":{"PlayerModel":"{\"selectedCommandIndex\":-1,\"isReady\":true}"}},"Property":{"PlayerModel":"{\"selectedCommandIndex\":-1,\"isReady\":true}"},"RemovedKeys":null,"Slient":false}
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Send : GSF.Ez.Packet.ModifyPlayerProperty
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-OnWebSocketMessage : {"__type":"GSF.Ez.Packet.ModifyPlayerProperty, GSF.Ez.Packet","PacketId":0,"Player":{"__type":"GSF.Ez.Packet.EzPlayer, GSF.Ez.Packet","PlayerId":"2070416415","Property":{"PlayerModel":"{\"selectedCommandIndex\":-1,\"isReady\":true}"}},"Property":{"PlayerModel":"{\"selectedCommandIndex\":-1,\"isReady\":true}"},"RemovedKeys":null,"Slient":false}
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-OnWebSocketMessage : {"__type":"GSF.Ez.Packet.ModifyWorldProperty, GSF.Ez.Packet","PacketId":0,"Property":{"GameModel":"{\"isTurnEnd\":false,\"maxTurnCount\":10,\"currentTurnCount\":3,\"score\":160.0}"},"RemovedKeys":null,"Slient":false}
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Send : GSF.Ez.Packet.ModifyPlayerProperty
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-OnWebSocketMessage : {"__type":"GSF.Ez.Packet.ModifyPlayerProperty, GSF.Ez.Packet","PacketId":0,"Player":{"__type":"GSF.Ez.Packet.EzPlayer, GSF.Ez.Packet","PlayerId":"2070416415","Property":{"PlayerModel":"{\"selectedCommandIndex\":-1,\"isReady\":false}"}},"Property":{"PlayerModel":"{\"selectedCommandIndex\":-1,\"isReady\":false}"},"RemovedKeys":null,"Slient":false}
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-OnWebSocketMessage : {"__type":"GSF.Ez.Packet.ModifyPlayerProperty, GSF.Ez.Packet","PacketId":0,"Player":{"__type":"GSF.Ez.Packet.EzPlayer, GSF.Ez.Packet","PlayerId":"769795255","Property":{"PlayerModel":"{\"selectedCommandIndex\":-1,\"isReady\":false}"}},"Property":{"PlayerModel":"{\"selectedCommandIndex\":-1,\"isReady\":false}"},"RemovedKeys":null,"Slient":false}
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Send : GSF.Ez.Packet.ModifyPlayerProperty
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-OnWebSocketMessage : {"__type":"GSF.Ez.Packet.ModifyPlayerProperty, GSF.Ez.Packet","PacketId":0,"Player":{"__type":"GSF.Ez.Packet.EzPlayer, GSF.Ez.Packet","PlayerId":"2070416415","Property":{"PlayerModel":"{\"selectedCommandIndex\":1,\"isReady\":false}"}},"Property":{"PlayerModel":"{\"selectedCommandIndex\":1,\"isReady\":false}"},"RemovedKeys":null,"Slient":false}
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-OnWebSocketMessage : {"__type":"GSF.Ez.Packet.ModifyPlayerProperty, GSF.Ez.Packet","PacketId":0,"Player":{"__type":"GSF.Ez.Packet.EzPlayer, GSF.Ez.Packet","PlayerId":"769795255","Property":{"PlayerModel":"{\"selectedCommandIndex\":0,\"isReady\":false}"}},"Property":{"PlayerModel":"{\"selectedCommandIndex\":0,\"isReady\":false}"},"RemovedKeys":null,"Slient":false}
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-OnWebSocketMessage : {"__type":"GSF.Ez.Packet.ModifyWorldProperty, GSF.Ez.Packet","PacketId":0,"Property":{"GameModel":"{\"isTurnEnd\":true,\"maxTurnCount\":10,\"currentTurnCount\":4,\"score\":180.0}"},"RemovedKeys":null,"Slient":false}
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-OnWebSocketMessage : {"__type":"GSF.Ez.Packet.ModifyPlayerProperty, GSF.Ez.Packet","PacketId":0,"Player":{"__type":"GSF.Ez.Packet.EzPlayer, GSF.Ez.Packet","PlayerId":"769795255","Property":{"PlayerModel":"{\"selectedCommandIndex\":-1,\"isReady\":true}"}},"Property":{"PlayerModel":"{\"selectedCommandIndex\":-1,\"isReady\":true}"},"RemovedKeys":null,"Slient":false}
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Send : GSF.Ez.Packet.ModifyPlayerProperty
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-OnWebSocketMessage : {"__type":"GSF.Ez.Packet.ModifyPlayerProperty, GSF.Ez.Packet","PacketId":0,"Player":{"__type":"GSF.Ez.Packet.EzPlayer, GSF.Ez.Packet","PlayerId":"2070416415","Property":{"PlayerModel":"{\"selectedCommandIndex\":-1,\"isReady\":true}"}},"Property":{"PlayerModel":"{\"selectedCommandIndex\":-1,\"isReady\":true}"},"RemovedKeys":null,"Slient":false}
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-OnWebSocketMessage : {"__type":"GSF.Ez.Packet.ModifyWorldProperty, GSF.Ez.Packet","PacketId":0,"Property":{"GameModel":"{\"isTurnEnd\":false,\"maxTurnCount\":10,\"currentTurnCount\":4,\"score\":180.0}"},"RemovedKeys":null,"Slient":false}
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Send : GSF.Ez.Packet.ModifyPlayerProperty
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-OnWebSocketMessage : {"__type":"GSF.Ez.Packet.ModifyPlayerProperty, GSF.Ez.Packet","PacketId":0,"Player":{"__type":"GSF.Ez.Packet.EzPlayer, GSF.Ez.Packet","PlayerId":"769795255","Property":{"PlayerModel":"{\"selectedCommandIndex\":-1,\"isReady\":false}"}},"Property":{"PlayerModel":"{\"selectedCommandIndex\":-1,\"isReady\":false}"},"RemovedKeys":null,"Slient":false}
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-OnWebSocketMessage : {"__type":"GSF.Ez.Packet.ModifyPlayerProperty, GSF.Ez.Packet","PacketId":0,"Player":{"__type":"GSF.Ez.Packet.EzPlayer, GSF.Ez.Packet","PlayerId":"2070416415","Property":{"PlayerModel":"{\"selectedCommandIndex\":-1,\"isReady\":false}"}},"Property":{"PlayerModel":"{\"selectedCommandIndex\":-1,\"isReady\":false}"},"RemovedKeys":null,"Slient":false}
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Send : GSF.Ez.Packet.ModifyPlayerProperty
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-OnWebSocketMessage : {"__type":"GSF.Ez.Packet.ModifyPlayerProperty, GSF.Ez.Packet","PacketId":0,"Player":{"__type":"GSF.Ez.Packet.EzPlayer, GSF.Ez.Packet","PlayerId":"2070416415","Property":{"PlayerModel":"{\"selectedCommandIndex\":2,\"isReady\":false}"}},"Property":{"PlayerModel":"{\"selectedCommandIndex\":2,\"isReady\":false}"},"RemovedKeys":null,"Slient":false}
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-OnWebSocketMessage : {"__type":"GSF.Ez.Packet.ModifyPlayerProperty, GSF.Ez.Packet","PacketId":0,"Player":{"__type":"GSF.Ez.Packet.EzPlayer, GSF.Ez.Packet","PlayerId":"769795255","Property":{"PlayerModel":"{\"selectedCommandIndex\":3,\"isReady\":false}"}},"Property":{"PlayerModel":"{\"selectedCommandIndex\":3,\"isReady\":false}"},"RemovedKeys":null,"Slient":false}
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-OnWebSocketMessage : {"__type":"GSF.Ez.Packet.ModifyWorldProperty, GSF.Ez.Packet","PacketId":0,"Property":{"GameModel":"{\"isTurnEnd\":true,\"maxTurnCount\":10,\"currentTurnCount\":5,\"score\":160.0}"},"RemovedKeys":null,"Slient":false}
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-OnWebSocketMessage : {"__type":"GSF.Ez.Packet.ModifyPlayerProperty, GSF.Ez.Packet","PacketId":0,"Player":{"__type":"GSF.Ez.Packet.EzPlayer, GSF.Ez.Packet","PlayerId":"769795255","Property":{"PlayerModel":"{\"selectedCommandIndex\":-1,\"isReady\":true}"}},"Property":{"PlayerModel":"{\"selectedCommandIndex\":-1,\"isReady\":true}"},"RemovedKeys":null,"Slient":false}
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Send : GSF.Ez.Packet.ModifyPlayerProperty
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-OnWebSocketMessage : {"__type":"GSF.Ez.Packet.ModifyPlayerProperty, GSF.Ez.Packet","PacketId":0,"Player":{"__type":"GSF.Ez.Packet.EzPlayer, GSF.Ez.Packet","PlayerId":"2070416415","Property":{"PlayerModel":"{\"selectedCommandIndex\":-1,\"isReady\":true}"}},"Property":{"PlayerModel":"{\"selectedCommandIndex\":-1,\"isReady\":true}"},"RemovedKeys":null,"Slient":false}
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-OnWebSocketMessage : {"__type":"GSF.Ez.Packet.ModifyWorldProperty, GSF.Ez.Packet","PacketId":0,"Property":{"GameModel":"{\"isTurnEnd\":false,\"maxTurnCount\":10,\"currentTurnCount\":5,\"score\":160.0}"},"RemovedKeys":null,"Slient":false}
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Send : GSF.Ez.Packet.ModifyPlayerProperty
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-OnWebSocketMessage : {"__type":"GSF.Ez.Packet.ModifyPlayerProperty, GSF.Ez.Packet","PacketId":0,"Player":{"__type":"GSF.Ez.Packet.EzPlayer, GSF.Ez.Packet","PlayerId":"769795255","Property":{"PlayerModel":"{\"selectedCommandIndex\":-1,\"isReady\":false}"}},"Property":{"PlayerModel":"{\"selectedCommandIndex\":-1,\"isReady\":false}"},"RemovedKeys":null,"Slient":false}
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-OnWebSocketMessage : {"__type":"GSF.Ez.Packet.ModifyPlayerProperty, GSF.Ez.Packet","PacketId":0,"Player":{"__type":"GSF.Ez.Packet.EzPlayer, GSF.Ez.Packet","PlayerId":"2070416415","Property":{"PlayerModel":"{\"selectedCommandIndex\":-1,\"isReady\":false}"}},"Property":{"PlayerModel":"{\"selectedCommandIndex\":-1,\"isReady\":false}"},"RemovedKeys":null,"Slient":false}
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Send : GSF.Ez.Packet.ModifyPlayerProperty
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-OnWebSocketMessage : {"__type":"GSF.Ez.Packet.ModifyPlayerProperty, GSF.Ez.Packet","PacketId":0,"Player":{"__type":"GSF.Ez.Packet.EzPlayer, GSF.Ez.Packet","PlayerId":"2070416415","Property":{"PlayerModel":"{\"selectedCommandIndex\":0,\"isReady\":false}"}},"Property":{"PlayerModel":"{\"selectedCommandIndex\":0,\"isReady\":false}"},"RemovedKeys":null,"Slient":false}
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-OnWebSocketMessage : {"__type":"GSF.Ez.Packet.ModifyPlayerProperty, GSF.Ez.Packet","PacketId":0,"Player":{"__type":"GSF.Ez.Packet.EzPlayer, GSF.Ez.Packet","PlayerId":"769795255","Property":{"PlayerModel":"{\"selectedCommandIndex\":4,\"isReady\":false}"}},"Property":{"PlayerModel":"{\"selectedCommandIndex\":4,\"isReady\":false}"},"RemovedKeys":null,"Slient":false}
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-OnWebSocketMessage : {"__type":"GSF.Ez.Packet.ModifyWorldProperty, GSF.Ez.Packet","PacketId":0,"Property":{"GameModel":"{\"isTurnEnd\":true,\"maxTurnCount\":10,\"currentTurnCount\":6,\"score\":140.0}"},"RemovedKeys":null,"Slient":false}
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-OnWebSocketMessage : {"__type":"GSF.Ez.Packet.ModifyPlayerProperty, GSF.Ez.Packet","PacketId":0,"Player":{"__type":"GSF.Ez.Packet.EzPlayer, GSF.Ez.Packet","PlayerId":"769795255","Property":{"PlayerModel":"{\"selectedCommandIndex\":-1,\"isReady\":true}"}},"Property":{"PlayerModel":"{\"selectedCommandIndex\":-1,\"isReady\":true}"},"RemovedKeys":null,"Slient":false}
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Send : GSF.Ez.Packet.ModifyPlayerProperty
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-OnWebSocketMessage : {"__type":"GSF.Ez.Packet.ModifyPlayerProperty, GSF.Ez.Packet","PacketId":0,"Player":{"__type":"GSF.Ez.Packet.EzPlayer, GSF.Ez.Packet","PlayerId":"2070416415","Property":{"PlayerModel":"{\"selectedCommandIndex\":-1,\"isReady\":true}"}},"Property":{"PlayerModel":"{\"selectedCommandIndex\":-1,\"isReady\":true}"},"RemovedKeys":null,"Slient":false}
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-OnWebSocketMessage : {"__type":"GSF.Ez.Packet.ModifyWorldProperty, GSF.Ez.Packet","PacketId":0,"Property":{"GameModel":"{\"isTurnEnd\":false,\"maxTurnCount\":10,\"currentTurnCount\":6,\"score\":140.0}"},"RemovedKeys":null,"Slient":false}
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Send : GSF.Ez.Packet.ModifyPlayerProperty
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-OnWebSocketMessage : {"__type":"GSF.Ez.Packet.ModifyPlayerProperty, GSF.Ez.Packet","PacketId":0,"Player":{"__type":"GSF.Ez.Packet.EzPlayer, GSF.Ez.Packet","PlayerId":"769795255","Property":{"PlayerModel":"{\"selectedCommandIndex\":-1,\"isReady\":false}"}},"Property":{"PlayerModel":"{\"selectedCommandIndex\":-1,\"isReady\":false}"},"RemovedKeys":null,"Slient":false}
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-OnWebSocketMessage : {"__type":"GSF.Ez.Packet.ModifyPlayerProperty, GSF.Ez.Packet","PacketId":0,"Player":{"__type":"GSF.Ez.Packet.EzPlayer, GSF.Ez.Packet","PlayerId":"2070416415","Property":{"PlayerModel":"{\"selectedCommandIndex\":-1,\"isReady\":false}"}},"Property":{"PlayerModel":"{\"selectedCommandIndex\":-1,\"isReady\":false}"},"RemovedKeys":null,"Slient":false}
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-OnWebSocketMessage : {"__type":"GSF.Ez.Packet.ModifyPlayerProperty, GSF.Ez.Packet","PacketId":0,"Player":{"__type":"GSF.Ez.Packet.EzPlayer, GSF.Ez.Packet","PlayerId":"769795255","Property":{"PlayerModel":"{\"selectedCommandIndex\":2,\"isReady\":false}"}},"Property":{"PlayerModel":"{\"selectedCommandIndex\":2,\"isReady\":false}"},"RemovedKeys":null,"Slient":false}
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Send : GSF.Ez.Packet.ModifyPlayerProperty
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-OnWebSocketMessage : {"__type":"GSF.Ez.Packet.ModifyPlayerProperty, GSF.Ez.Packet","PacketId":0,"Player":{"__type":"GSF.Ez.Packet.EzPlayer, GSF.Ez.Packet","PlayerId":"2070416415","Property":{"PlayerModel":"{\"selectedCommandIndex\":3,\"isReady\":false}"}},"Property":{"PlayerModel":"{\"selectedCommandIndex\":3,\"isReady\":false}"},"RemovedKeys":null,"Slient":false}
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-OnWebSocketMessage : {"__type":"GSF.Ez.Packet.ModifyWorldProperty, GSF.Ez.Packet","PacketId":0,"Property":{"GameModel":"{\"isTurnEnd\":true,\"maxTurnCount\":10,\"currentTurnCount\":7,\"score\":160.0}"},"RemovedKeys":null,"Slient":false}
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-OnWebSocketMessage : {"__type":"GSF.Ez.Packet.ModifyPlayerProperty, GSF.Ez.Packet","PacketId":0,"Player":{"__type":"GSF.Ez.Packet.EzPlayer, GSF.Ez.Packet","PlayerId":"769795255","Property":{"PlayerModel":"{\"selectedCommandIndex\":-1,\"isReady\":true}"}},"Property":{"PlayerModel":"{\"selectedCommandIndex\":-1,\"isReady\":true}"},"RemovedKeys":null,"Slient":false}
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Send : GSF.Ez.Packet.ModifyPlayerProperty
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-OnWebSocketMessage : {"__type":"GSF.Ez.Packet.ModifyPlayerProperty, GSF.Ez.Packet","PacketId":0,"Player":{"__type":"GSF.Ez.Packet.EzPlayer, GSF.Ez.Packet","PlayerId":"2070416415","Property":{"PlayerModel":"{\"selectedCommandIndex\":-1,\"isReady\":true}"}},"Property":{"PlayerModel":"{\"selectedCommandIndex\":-1,\"isReady\":true}"},"RemovedKeys":null,"Slient":false}
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-OnWebSocketMessage : {"__type":"GSF.Ez.Packet.ModifyWorldProperty, GSF.Ez.Packet","PacketId":0,"Property":{"GameModel":"{\"isTurnEnd\":false,\"maxTurnCount\":10,\"currentTurnCount\":7,\"score\":160.0}"},"RemovedKeys":null,"Slient":false}
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Send : GSF.Ez.Packet.ModifyPlayerProperty
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-OnWebSocketMessage : {"__type":"GSF.Ez.Packet.ModifyPlayerProperty, GSF.Ez.Packet","PacketId":0,"Player":{"__type":"GSF.Ez.Packet.EzPlayer, GSF.Ez.Packet","PlayerId":"769795255","Property":{"PlayerModel":"{\"selectedCommandIndex\":-1,\"isReady\":false}"}},"Property":{"PlayerModel":"{\"selectedCommandIndex\":-1,\"isReady\":false}"},"RemovedKeys":null,"Slient":false}
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-OnWebSocketMessage : {"__type":"GSF.Ez.Packet.ModifyPlayerProperty, GSF.Ez.Packet","PacketId":0,"Player":{"__type":"GSF.Ez.Packet.EzPlayer, GSF.Ez.Packet","PlayerId":"2070416415","Property":{"PlayerModel":"{\"selectedCommandIndex\":-1,\"isReady\":false}"}},"Property":{"PlayerModel":"{\"selectedCommandIndex\":-1,\"isReady\":false}"},"RemovedKeys":null,"Slient":false}
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-OnWebSocketMessage : {"__type":"GSF.Ez.Packet.ModifyPlayerProperty, GSF.Ez.Packet","PacketId":0,"Player":{"__type":"GSF.Ez.Packet.EzPlayer, GSF.Ez.Packet","PlayerId":"769795255","Property":{"PlayerModel":"{\"selectedCommandIndex\":3,\"isReady\":false}"}},"Property":{"PlayerModel":"{\"selectedCommandIndex\":3,\"isReady\":false}"},"RemovedKeys":null,"Slient":false}
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Send : GSF.Ez.Packet.ModifyPlayerProperty
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-OnWebSocketMessage : {"__type":"GSF.Ez.Packet.ModifyPlayerProperty, GSF.Ez.Packet","PacketId":0,"Player":{"__type":"GSF.Ez.Packet.EzPlayer, GSF.Ez.Packet","PlayerId":"2070416415","Property":{"PlayerModel":"{\"selectedCommandIndex\":2,\"isReady\":false}"}},"Property":{"PlayerModel":"{\"selectedCommandIndex\":2,\"isReady\":false}"},"RemovedKeys":null,"Slient":false}
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-OnWebSocketMessage : {"__type":"GSF.Ez.Packet.ModifyWorldProperty, GSF.Ez.Packet","PacketId":0,"Property":{"GameModel":"{\"isTurnEnd\":true,\"maxTurnCount\":10,\"currentTurnCount\":8,\"score\":140.0}"},"RemovedKeys":null,"Slient":false}
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-OnWebSocketMessage : {"__type":"GSF.Ez.Packet.ModifyPlayerProperty, GSF.Ez.Packet","PacketId":0,"Player":{"__type":"GSF.Ez.Packet.EzPlayer, GSF.Ez.Packet","PlayerId":"769795255","Property":{"PlayerModel":"{\"selectedCommandIndex\":-1,\"isReady\":true}"}},"Property":{"PlayerModel":"{\"selectedCommandIndex\":-1,\"isReady\":true}"},"RemovedKeys":null,"Slient":false}
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Send : GSF.Ez.Packet.ModifyPlayerProperty
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-OnWebSocketMessage : {"__type":"GSF.Ez.Packet.ModifyPlayerProperty, GSF.Ez.Packet","PacketId":0,"Player":{"__type":"GSF.Ez.Packet.EzPlayer, GSF.Ez.Packet","PlayerId":"2070416415","Property":{"PlayerModel":"{\"selectedCommandIndex\":-1,\"isReady\":true}"}},"Property":{"PlayerModel":"{\"selectedCommandIndex\":-1,\"isReady\":true}"},"RemovedKeys":null,"Slient":false}
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-OnWebSocketMessage : {"__type":"GSF.Ez.Packet.ModifyWorldProperty, GSF.Ez.Packet","PacketId":0,"Property":{"GameModel":"{\"isTurnEnd\":false,\"maxTurnCount\":10,\"currentTurnCount\":8,\"score\":140.0}"},"RemovedKeys":null,"Slient":false}
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-OnWebSocketMessage : {"__type":"GSF.Ez.Packet.ModifyPlayerProperty, GSF.Ez.Packet","PacketId":0,"Player":{"__type":"GSF.Ez.Packet.EzPlayer, GSF.Ez.Packet","PlayerId":"769795255","Property":{"PlayerModel":"{\"selectedCommandIndex\":-1,\"isReady\":false}"}},"Property":{"PlayerModel":"{\"selectedCommandIndex\":-1,\"isReady\":false}"},"RemovedKeys":null,"Slient":false}
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Send : GSF.Ez.Packet.ModifyPlayerProperty
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-OnWebSocketMessage : {"__type":"GSF.Ez.Packet.ModifyPlayerProperty, GSF.Ez.Packet","PacketId":0,"Player":{"__type":"GSF.Ez.Packet.EzPlayer, GSF.Ez.Packet","PlayerId":"2070416415","Property":{"PlayerModel":"{\"selectedCommandIndex\":-1,\"isReady\":false}"}},"Property":{"PlayerModel":"{\"selectedCommandIndex\":-1,\"isReady\":false}"},"RemovedKeys":null,"Slient":false}
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-OnWebSocketMessage : {"__type":"GSF.Ez.Packet.ModifyPlayerProperty, GSF.Ez.Packet","PacketId":0,"Player":{"__type":"GSF.Ez.Packet.EzPlayer, GSF.Ez.Packet","PlayerId":"769795255","Property":{"PlayerModel":"{\"selectedCommandIndex\":1,\"isReady\":false}"}},"Property":{"PlayerModel":"{\"selectedCommandIndex\":1,\"isReady\":false}"},"RemovedKeys":null,"Slient":false}
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Send : GSF.Ez.Packet.ModifyPlayerProperty
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-OnWebSocketMessage : {"__type":"GSF.Ez.Packet.ModifyPlayerProperty, GSF.Ez.Packet","PacketId":0,"Player":{"__type":"GSF.Ez.Packet.EzPlayer, GSF.Ez.Packet","PlayerId":"2070416415","Property":{"PlayerModel":"{\"selectedCommandIndex\":0,\"isReady\":false}"}},"Property":{"PlayerModel":"{\"selectedCommandIndex\":0,\"isReady\":false}"},"RemovedKeys":null,"Slient":false}
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-OnWebSocketMessage : {"__type":"GSF.Ez.Packet.ModifyWorldProperty, GSF.Ez.Packet","PacketId":0,"Property":{"GameModel":"{\"isTurnEnd\":true,\"maxTurnCount\":10,\"currentTurnCount\":9,\"score\":160.0}"},"RemovedKeys":null,"Slient":false}
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-OnWebSocketMessage : {"__type":"GSF.Ez.Packet.ModifyPlayerProperty, GSF.Ez.Packet","PacketId":0,"Player":{"__type":"GSF.Ez.Packet.EzPlayer, GSF.Ez.Packet","PlayerId":"769795255","Property":{"PlayerModel":"{\"selectedCommandIndex\":-1,\"isReady\":true}"}},"Property":{"PlayerModel":"{\"selectedCommandIndex\":-1,\"isReady\":true}"},"RemovedKeys":null,"Slient":false}
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Send : GSF.Ez.Packet.ModifyPlayerProperty
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-OnWebSocketMessage : {"__type":"GSF.Ez.Packet.ModifyPlayerProperty, GSF.Ez.Packet","PacketId":0,"Player":{"__type":"GSF.Ez.Packet.EzPlayer, GSF.Ez.Packet","PlayerId":"2070416415","Property":{"PlayerModel":"{\"selectedCommandIndex\":-1,\"isReady\":true}"}},"Property":{"PlayerModel":"{\"selectedCommandIndex\":-1,\"isReady\":true}"},"RemovedKeys":null,"Slient":false}
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-OnWebSocketMessage : {"__type":"GSF.Ez.Packet.ModifyWorldProperty, GSF.Ez.Packet","PacketId":0,"Property":{"GameModel":"{\"isTurnEnd\":false,\"maxTurnCount\":10,\"currentTurnCount\":9,\"score\":160.0}"},"RemovedKeys":null,"Slient":false}
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-OnWebSocketMessage : {"__type":"GSF.Ez.Packet.ModifyPlayerProperty, GSF.Ez.Packet","PacketId":0,"Player":{"__type":"GSF.Ez.Packet.EzPlayer, GSF.Ez.Packet","PlayerId":"769795255","Property":{"PlayerModel":"{\"selectedCommandIndex\":-1,\"isReady\":false}"}},"Property":{"PlayerModel":"{\"selectedCommandIndex\":-1,\"isReady\":false}"},"RemovedKeys":null,"Slient":false}
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Send : GSF.Ez.Packet.ModifyPlayerProperty
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-OnWebSocketMessage : {"__type":"GSF.Ez.Packet.ModifyPlayerProperty, GSF.Ez.Packet","PacketId":0,"Player":{"__type":"GSF.Ez.Packet.EzPlayer, GSF.Ez.Packet","PlayerId":"2070416415","Property":{"PlayerModel":"{\"selectedCommandIndex\":-1,\"isReady\":false}"}},"Property":{"PlayerModel":"{\"selectedCommandIndex\":-1,\"isReady\":false}"},"RemovedKeys":null,"Slient":false}
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Send : GSF.Ez.Packet.ModifyPlayerProperty
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-OnWebSocketMessage : {"__type":"GSF.Ez.Packet.ModifyPlayerProperty, GSF.Ez.Packet","PacketId":0,"Player":{"__type":"GSF.Ez.Packet.EzPlayer, GSF.Ez.Packet","PlayerId":"2070416415","Property":{"PlayerModel":"{\"selectedCommandIndex\":2,\"isReady\":false}"}},"Property":{"PlayerModel":"{\"selectedCommandIndex\":2,\"isReady\":false}"},"RemovedKeys":null,"Slient":false}
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-OnWebSocketMessage : {"__type":"GSF.Ez.Packet.ModifyPlayerProperty, GSF.Ez.Packet","PacketId":0,"Player":{"__type":"GSF.Ez.Packet.EzPlayer, GSF.Ez.Packet","PlayerId":"769795255","Property":{"PlayerModel":"{\"selectedCommandIndex\":3,\"isReady\":false}"}},"Property":{"PlayerModel":"{\"selectedCommandIndex\":3,\"isReady\":false}"},"RemovedKeys":null,"Slient":false}
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-OnWebSocketMessage : {"__type":"GSF.Ez.Packet.ModifyWorldProperty, GSF.Ez.Packet","PacketId":0,"Property":{"GameModel":"{\"isTurnEnd\":true,\"maxTurnCount\":10,\"currentTurnCount\":10,\"score\":140.0}"},"RemovedKeys":null,"Slient":false}
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-OnWebSocketMessage : {"__type":"GSF.Ez.Packet.ModifyPlayerProperty, GSF.Ez.Packet","PacketId":0,"Player":{"__type":"GSF.Ez.Packet.EzPlayer, GSF.Ez.Packet","PlayerId":"769795255","Property":{"PlayerModel":"{\"selectedCommandIndex\":-1,\"isReady\":true}"}},"Property":{"PlayerModel":"{\"selectedCommandIndex\":-1,\"isReady\":true}"},"RemovedKeys":null,"Slient":false}
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Send : GSF.Ez.Packet.ModifyPlayerProperty
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-OnWebSocketMessage : {"__type":"GSF.Ez.Packet.ModifyPlayerProperty, GSF.Ez.Packet","PacketId":0,"Player":{"__type":"GSF.Ez.Packet.EzPlayer, GSF.Ez.Packet","PlayerId":"2070416415","Property":{"PlayerModel":"{\"selectedCommandIndex\":-1,\"isReady\":true}"}},"Property":{"PlayerModel":"{\"selectedCommandIndex\":-1,\"isReady\":true}"},"RemovedKeys":null,"Slient":false}
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-OnWebSocketMessage : {"__type":"GSF.Ez.Packet.ModifyWorldProperty, GSF.Ez.Packet","PacketId":0,"Property":{"GameModel":"{\"isTurnEnd\":false,\"maxTurnCount\":10,\"currentTurnCount\":10,\"score\":140.0}"},"RemovedKeys":null,"Slient":false}
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-OnWebSocketClose : 
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 1.858160 ms
-
-Unloading 97 unused Assets to reduce memory usage. Loaded Objects now: 285.
-Total: 3.887605 ms (FindLiveObjects: 0.042048 ms CreateObjectMapping: 0.025970 ms MarkObjects: 0.330202 ms  DeleteObjects: 3.488765 ms)
-
-OpWebSocketOpen
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Send : GSF.Ez.Packet.JoinPlayer
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-OnWebSocketMessage : {"__type":"GSF.Ez.Packet.WorldInfo, GSF.Ez.Packet","PacketId":1,"RootPlayerId":"1133827713","Player":{"__type":"GSF.Ez.Packet.EzPlayer, GSF.Ez.Packet","PlayerId":"1133827713","Property":{}},"OtherPlayers":[],"Property":{"GameModel":"{\"isTurnEnd\":false,\"maxTurnCount\":10,\"currentTurnCount\":10,\"score\":140.0}"}}
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-OnWebSocketMessage : {"__type":"GSF.Ez.Packet.JoinPlayer, GSF.Ez.Packet","PacketId":0,"Player":{"__type":"GSF.Ez.Packet.EzPlayer, GSF.Ez.Packet","PlayerId":"1150965690","Property":{}}}
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 0.296192 ms
-
-Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 3215.
-Total: 1.671107 ms (FindLiveObjects: 0.146859 ms CreateObjectMapping: 0.058125 ms MarkObjects: 1.445407 ms  DeleteObjects: 0.020096 ms)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Command.SetInputEnable (Boolean isEnable) [0x00000] in <filename unknown>:0 
-  at PlayerComponent.SetCommandInputEnable (Boolean isEnable) [0x00000] in <filename unknown>:0 
-  at PlayerComponent.Start () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Command.SetInputEnable (Boolean isEnable) [0x00000] in <filename unknown>:0 
-  at PlayerComponent.SetCommandInputEnable (Boolean isEnable) [0x00000] in <filename unknown>:0 
-  at PlayerComponent.Start () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-Send : GSF.Ez.Packet.ModifyPlayerProperty
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-OnWebSocketMessage : {"__type":"GSF.Ez.Packet.ModifyPlayerProperty, GSF.Ez.Packet","PacketId":0,"Player":{"__type":"GSF.Ez.Packet.EzPlayer, GSF.Ez.Packet","PlayerId":"1133827713","Property":{"PlayerModel":"{\"selectedCommandIndex\":-1,\"isReady\":true}"}},"Property":{"PlayerModel":"{\"selectedCommandIndex\":-1,\"isReady\":true}"},"RemovedKeys":null,"Slient":false}
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-OnWebSocketMessage : {"__type":"GSF.Ez.Packet.ModifyPlayerProperty, GSF.Ez.Packet","PacketId":0,"Player":{"__type":"GSF.Ez.Packet.EzPlayer, GSF.Ez.Packet","PlayerId":"1150965690","Property":{"PlayerModel":"{\"selectedCommandIndex\":-1,\"isReady\":true}"}},"Property":{"PlayerModel":"{\"selectedCommandIndex\":-1,\"isReady\":true}"},"RemovedKeys":null,"Slient":false}
+OnWebSocketMessage : {"__type":"GSF.Ez.Packet.ModifyPlayerProperty, GSF.Ez.Packet","PacketId":0,"Player":{"__type":"GSF.Ez.Packet.EzPlayer, GSF.Ez.Packet","PlayerId":"955765334","Property":{"PlayerModel":"{\"selectedCommandIndex\":-1,\"isReady\":true}"}},"Property":{"PlayerModel":"{\"selectedCommandIndex\":-1,\"isReady\":true}"},"RemovedKeys":null,"Slient":false}
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
@@ -598,22 +100,536 @@ Send : GSF.Ez.Packet.ModifyPlayerProperty
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-OnWebSocketMessage : {"__type":"GSF.Ez.Packet.ModifyPlayerProperty, GSF.Ez.Packet","PacketId":0,"Player":{"__type":"GSF.Ez.Packet.EzPlayer, GSF.Ez.Packet","PlayerId":"1133827713","Property":{"PlayerModel":"{\"selectedCommandIndex\":-1,\"isReady\":false}"}},"Property":{"PlayerModel":"{\"selectedCommandIndex\":-1,\"isReady\":false}"},"RemovedKeys":null,"Slient":false}
+OnWebSocketMessage : {"__type":"GSF.Ez.Packet.ModifyPlayerProperty, GSF.Ez.Packet","PacketId":0,"Player":{"__type":"GSF.Ez.Packet.EzPlayer, GSF.Ez.Packet","PlayerId":"955765334","Property":{"PlayerModel":"{\"selectedCommandIndex\":-1,\"isReady\":false}"}},"Property":{"PlayerModel":"{\"selectedCommandIndex\":-1,\"isReady\":false}"},"RemovedKeys":null,"Slient":false}
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-OnWebSocketMessage : {"__type":"GSF.Ez.Packet.ModifyPlayerProperty, GSF.Ez.Packet","PacketId":0,"Player":{"__type":"GSF.Ez.Packet.EzPlayer, GSF.Ez.Packet","PlayerId":"1150965690","Property":{"PlayerModel":"{\"selectedCommandIndex\":-1,\"isReady\":false}"}},"Property":{"PlayerModel":"{\"selectedCommandIndex\":-1,\"isReady\":false}"},"RemovedKeys":null,"Slient":false}
+OnWebSocketMessage : {"__type":"GSF.Ez.Packet.ModifyPlayerProperty, GSF.Ez.Packet","PacketId":0,"Player":{"__type":"GSF.Ez.Packet.EzPlayer, GSF.Ez.Packet","PlayerId":"1598728096","Property":{"PlayerModel":"{\"selectedCommandIndex\":-1,\"isReady\":false}"}},"Property":{"PlayerModel":"{\"selectedCommandIndex\":-1,\"isReady\":false}"},"RemovedKeys":null,"Slient":false}
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-OnWebSocketMessage : {"__type":"GSF.Ez.Packet.LeavePlayer, GSF.Ez.Packet","PacketId":0,"Player":{"__type":"GSF.Ez.Packet.EzPlayer, GSF.Ez.Packet","PlayerId":"1150965690","Property":{"PlayerModel":"{\"selectedCommandIndex\":-1,\"isReady\":false}"}},"RootPlayerId":"1133827713"}
+Send : GSF.Ez.Packet.ModifyPlayerProperty
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-Setting up 2 worker threads for Enlighten.
-  Thread -> id: 11210 -> priority: 1 
-  Thread -> id: 137dc -> priority: 1 
+OnWebSocketMessage : {"__type":"GSF.Ez.Packet.ModifyPlayerProperty, GSF.Ez.Packet","PacketId":0,"Player":{"__type":"GSF.Ez.Packet.EzPlayer, GSF.Ez.Packet","PlayerId":"955765334","Property":{"PlayerModel":"{\"selectedCommandIndex\":4,\"isReady\":false}"}},"Property":{"PlayerModel":"{\"selectedCommandIndex\":4,\"isReady\":false}"},"RemovedKeys":null,"Slient":false}
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+OnWebSocketMessage : {"__type":"GSF.Ez.Packet.ModifyPlayerProperty, GSF.Ez.Packet","PacketId":0,"Player":{"__type":"GSF.Ez.Packet.EzPlayer, GSF.Ez.Packet","PlayerId":"1598728096","Property":{"PlayerModel":"{\"selectedCommandIndex\":1,\"isReady\":false}"}},"Property":{"PlayerModel":"{\"selectedCommandIndex\":1,\"isReady\":false}"},"RemovedKeys":null,"Slient":false}
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Send : GSF.Ez.Packet.ModifyWorldProperty
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+OnWebSocketMessage : {"__type":"GSF.Ez.Packet.ModifyWorldProperty, GSF.Ez.Packet","PacketId":0,"Property":{"GameModel":"{\"isTurnEnd\":true,\"maxTurnCount\":10,\"currentTurnCount\":1,\"score\":80.0}"},"RemovedKeys":null,"Slient":false}
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Send : GSF.Ez.Packet.ModifyPlayerProperty
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+OnWebSocketMessage : {"__type":"GSF.Ez.Packet.ModifyPlayerProperty, GSF.Ez.Packet","PacketId":0,"Player":{"__type":"GSF.Ez.Packet.EzPlayer, GSF.Ez.Packet","PlayerId":"955765334","Property":{"PlayerModel":"{\"selectedCommandIndex\":-1,\"isReady\":true}"}},"Property":{"PlayerModel":"{\"selectedCommandIndex\":-1,\"isReady\":true}"},"RemovedKeys":null,"Slient":false}
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+OnWebSocketMessage : {"__type":"GSF.Ez.Packet.ModifyPlayerProperty, GSF.Ez.Packet","PacketId":0,"Player":{"__type":"GSF.Ez.Packet.EzPlayer, GSF.Ez.Packet","PlayerId":"1598728096","Property":{"PlayerModel":"{\"selectedCommandIndex\":-1,\"isReady\":true}"}},"Property":{"PlayerModel":"{\"selectedCommandIndex\":-1,\"isReady\":true}"},"RemovedKeys":null,"Slient":false}
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Send : GSF.Ez.Packet.ModifyWorldProperty
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+OnWebSocketMessage : {"__type":"GSF.Ez.Packet.ModifyWorldProperty, GSF.Ez.Packet","PacketId":0,"Property":{"GameModel":"{\"isTurnEnd\":false,\"maxTurnCount\":10,\"currentTurnCount\":1,\"score\":80.0}"},"RemovedKeys":null,"Slient":false}
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Send : GSF.Ez.Packet.ModifyPlayerProperty
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+OnWebSocketMessage : {"__type":"GSF.Ez.Packet.ModifyPlayerProperty, GSF.Ez.Packet","PacketId":0,"Player":{"__type":"GSF.Ez.Packet.EzPlayer, GSF.Ez.Packet","PlayerId":"955765334","Property":{"PlayerModel":"{\"selectedCommandIndex\":-1,\"isReady\":false}"}},"Property":{"PlayerModel":"{\"selectedCommandIndex\":-1,\"isReady\":false}"},"RemovedKeys":null,"Slient":false}
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+OnWebSocketMessage : {"__type":"GSF.Ez.Packet.ModifyPlayerProperty, GSF.Ez.Packet","PacketId":0,"Player":{"__type":"GSF.Ez.Packet.EzPlayer, GSF.Ez.Packet","PlayerId":"1598728096","Property":{"PlayerModel":"{\"selectedCommandIndex\":-1,\"isReady\":false}"}},"Property":{"PlayerModel":"{\"selectedCommandIndex\":-1,\"isReady\":false}"},"RemovedKeys":null,"Slient":false}
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Send : GSF.Ez.Packet.ModifyPlayerProperty
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+OnWebSocketMessage : {"__type":"GSF.Ez.Packet.ModifyPlayerProperty, GSF.Ez.Packet","PacketId":0,"Player":{"__type":"GSF.Ez.Packet.EzPlayer, GSF.Ez.Packet","PlayerId":"955765334","Property":{"PlayerModel":"{\"selectedCommandIndex\":2,\"isReady\":false}"}},"Property":{"PlayerModel":"{\"selectedCommandIndex\":2,\"isReady\":false}"},"RemovedKeys":null,"Slient":false}
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+OnWebSocketMessage : {"__type":"GSF.Ez.Packet.ModifyPlayerProperty, GSF.Ez.Packet","PacketId":0,"Player":{"__type":"GSF.Ez.Packet.EzPlayer, GSF.Ez.Packet","PlayerId":"1598728096","Property":{"PlayerModel":"{\"selectedCommandIndex\":2,\"isReady\":false}"}},"Property":{"PlayerModel":"{\"selectedCommandIndex\":2,\"isReady\":false}"},"RemovedKeys":null,"Slient":false}
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Send : GSF.Ez.Packet.ModifyWorldProperty
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+OnWebSocketMessage : {"__type":"GSF.Ez.Packet.ModifyWorldProperty, GSF.Ez.Packet","PacketId":0,"Property":{"GameModel":"{\"isTurnEnd\":true,\"maxTurnCount\":10,\"currentTurnCount\":2,\"score\":100.0}"},"RemovedKeys":null,"Slient":false}
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Send : GSF.Ez.Packet.ModifyPlayerProperty
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+OnWebSocketMessage : {"__type":"GSF.Ez.Packet.ModifyPlayerProperty, GSF.Ez.Packet","PacketId":0,"Player":{"__type":"GSF.Ez.Packet.EzPlayer, GSF.Ez.Packet","PlayerId":"955765334","Property":{"PlayerModel":"{\"selectedCommandIndex\":-1,\"isReady\":true}"}},"Property":{"PlayerModel":"{\"selectedCommandIndex\":-1,\"isReady\":true}"},"RemovedKeys":null,"Slient":false}
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+OnWebSocketMessage : {"__type":"GSF.Ez.Packet.ModifyPlayerProperty, GSF.Ez.Packet","PacketId":0,"Player":{"__type":"GSF.Ez.Packet.EzPlayer, GSF.Ez.Packet","PlayerId":"1598728096","Property":{"PlayerModel":"{\"selectedCommandIndex\":-1,\"isReady\":true}"}},"Property":{"PlayerModel":"{\"selectedCommandIndex\":-1,\"isReady\":true}"},"RemovedKeys":null,"Slient":false}
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Send : GSF.Ez.Packet.ModifyWorldProperty
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+OnWebSocketMessage : {"__type":"GSF.Ez.Packet.ModifyWorldProperty, GSF.Ez.Packet","PacketId":0,"Property":{"GameModel":"{\"isTurnEnd\":false,\"maxTurnCount\":10,\"currentTurnCount\":2,\"score\":100.0}"},"RemovedKeys":null,"Slient":false}
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Send : GSF.Ez.Packet.ModifyPlayerProperty
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+OnWebSocketMessage : {"__type":"GSF.Ez.Packet.ModifyPlayerProperty, GSF.Ez.Packet","PacketId":0,"Player":{"__type":"GSF.Ez.Packet.EzPlayer, GSF.Ez.Packet","PlayerId":"955765334","Property":{"PlayerModel":"{\"selectedCommandIndex\":-1,\"isReady\":false}"}},"Property":{"PlayerModel":"{\"selectedCommandIndex\":-1,\"isReady\":false}"},"RemovedKeys":null,"Slient":false}
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+OnWebSocketMessage : {"__type":"GSF.Ez.Packet.ModifyPlayerProperty, GSF.Ez.Packet","PacketId":0,"Player":{"__type":"GSF.Ez.Packet.EzPlayer, GSF.Ez.Packet","PlayerId":"1598728096","Property":{"PlayerModel":"{\"selectedCommandIndex\":-1,\"isReady\":false}"}},"Property":{"PlayerModel":"{\"selectedCommandIndex\":-1,\"isReady\":false}"},"RemovedKeys":null,"Slient":false}
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Send : GSF.Ez.Packet.ModifyPlayerProperty
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+OnWebSocketMessage : {"__type":"GSF.Ez.Packet.ModifyPlayerProperty, GSF.Ez.Packet","PacketId":0,"Player":{"__type":"GSF.Ez.Packet.EzPlayer, GSF.Ez.Packet","PlayerId":"955765334","Property":{"PlayerModel":"{\"selectedCommandIndex\":0,\"isReady\":false}"}},"Property":{"PlayerModel":"{\"selectedCommandIndex\":0,\"isReady\":false}"},"RemovedKeys":null,"Slient":false}
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+OnWebSocketMessage : {"__type":"GSF.Ez.Packet.ModifyPlayerProperty, GSF.Ez.Packet","PacketId":0,"Player":{"__type":"GSF.Ez.Packet.EzPlayer, GSF.Ez.Packet","PlayerId":"1598728096","Property":{"PlayerModel":"{\"selectedCommandIndex\":0,\"isReady\":false}"}},"Property":{"PlayerModel":"{\"selectedCommandIndex\":0,\"isReady\":false}"},"RemovedKeys":null,"Slient":false}
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Send : GSF.Ez.Packet.ModifyWorldProperty
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+OnWebSocketMessage : {"__type":"GSF.Ez.Packet.ModifyWorldProperty, GSF.Ez.Packet","PacketId":0,"Property":{"GameModel":"{\"isTurnEnd\":true,\"maxTurnCount\":10,\"currentTurnCount\":3,\"score\":120.0}"},"RemovedKeys":null,"Slient":false}
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Send : GSF.Ez.Packet.ModifyPlayerProperty
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+OnWebSocketMessage : {"__type":"GSF.Ez.Packet.ModifyPlayerProperty, GSF.Ez.Packet","PacketId":0,"Player":{"__type":"GSF.Ez.Packet.EzPlayer, GSF.Ez.Packet","PlayerId":"955765334","Property":{"PlayerModel":"{\"selectedCommandIndex\":-1,\"isReady\":true}"}},"Property":{"PlayerModel":"{\"selectedCommandIndex\":-1,\"isReady\":true}"},"RemovedKeys":null,"Slient":false}
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+OnWebSocketMessage : {"__type":"GSF.Ez.Packet.ModifyPlayerProperty, GSF.Ez.Packet","PacketId":0,"Player":{"__type":"GSF.Ez.Packet.EzPlayer, GSF.Ez.Packet","PlayerId":"1598728096","Property":{"PlayerModel":"{\"selectedCommandIndex\":-1,\"isReady\":true}"}},"Property":{"PlayerModel":"{\"selectedCommandIndex\":-1,\"isReady\":true}"},"RemovedKeys":null,"Slient":false}
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Send : GSF.Ez.Packet.ModifyWorldProperty
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+OnWebSocketMessage : {"__type":"GSF.Ez.Packet.ModifyWorldProperty, GSF.Ez.Packet","PacketId":0,"Property":{"GameModel":"{\"isTurnEnd\":false,\"maxTurnCount\":10,\"currentTurnCount\":3,\"score\":120.0}"},"RemovedKeys":null,"Slient":false}
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Send : GSF.Ez.Packet.ModifyPlayerProperty
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+OnWebSocketMessage : {"__type":"GSF.Ez.Packet.ModifyPlayerProperty, GSF.Ez.Packet","PacketId":0,"Player":{"__type":"GSF.Ez.Packet.EzPlayer, GSF.Ez.Packet","PlayerId":"955765334","Property":{"PlayerModel":"{\"selectedCommandIndex\":-1,\"isReady\":false}"}},"Property":{"PlayerModel":"{\"selectedCommandIndex\":-1,\"isReady\":false}"},"RemovedKeys":null,"Slient":false}
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+OnWebSocketMessage : {"__type":"GSF.Ez.Packet.ModifyPlayerProperty, GSF.Ez.Packet","PacketId":0,"Player":{"__type":"GSF.Ez.Packet.EzPlayer, GSF.Ez.Packet","PlayerId":"1598728096","Property":{"PlayerModel":"{\"selectedCommandIndex\":-1,\"isReady\":false}"}},"Property":{"PlayerModel":"{\"selectedCommandIndex\":-1,\"isReady\":false}"},"RemovedKeys":null,"Slient":false}
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Send : GSF.Ez.Packet.ModifyPlayerProperty
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+OnWebSocketMessage : {"__type":"GSF.Ez.Packet.ModifyPlayerProperty, GSF.Ez.Packet","PacketId":0,"Player":{"__type":"GSF.Ez.Packet.EzPlayer, GSF.Ez.Packet","PlayerId":"955765334","Property":{"PlayerModel":"{\"selectedCommandIndex\":1,\"isReady\":false}"}},"Property":{"PlayerModel":"{\"selectedCommandIndex\":1,\"isReady\":false}"},"RemovedKeys":null,"Slient":false}
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+OnWebSocketMessage : {"__type":"GSF.Ez.Packet.ModifyPlayerProperty, GSF.Ez.Packet","PacketId":0,"Player":{"__type":"GSF.Ez.Packet.EzPlayer, GSF.Ez.Packet","PlayerId":"1598728096","Property":{"PlayerModel":"{\"selectedCommandIndex\":3,\"isReady\":false}"}},"Property":{"PlayerModel":"{\"selectedCommandIndex\":3,\"isReady\":false}"},"RemovedKeys":null,"Slient":false}
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Send : GSF.Ez.Packet.ModifyWorldProperty
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+OnWebSocketMessage : {"__type":"GSF.Ez.Packet.ModifyWorldProperty, GSF.Ez.Packet","PacketId":0,"Property":{"GameModel":"{\"isTurnEnd\":true,\"maxTurnCount\":10,\"currentTurnCount\":4,\"score\":100.0}"},"RemovedKeys":null,"Slient":false}
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Send : GSF.Ez.Packet.ModifyPlayerProperty
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+OnWebSocketMessage : {"__type":"GSF.Ez.Packet.ModifyPlayerProperty, GSF.Ez.Packet","PacketId":0,"Player":{"__type":"GSF.Ez.Packet.EzPlayer, GSF.Ez.Packet","PlayerId":"955765334","Property":{"PlayerModel":"{\"selectedCommandIndex\":-1,\"isReady\":true}"}},"Property":{"PlayerModel":"{\"selectedCommandIndex\":-1,\"isReady\":true}"},"RemovedKeys":null,"Slient":false}
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+OnWebSocketMessage : {"__type":"GSF.Ez.Packet.ModifyPlayerProperty, GSF.Ez.Packet","PacketId":0,"Player":{"__type":"GSF.Ez.Packet.EzPlayer, GSF.Ez.Packet","PlayerId":"1598728096","Property":{"PlayerModel":"{\"selectedCommandIndex\":-1,\"isReady\":true}"}},"Property":{"PlayerModel":"{\"selectedCommandIndex\":-1,\"isReady\":true}"},"RemovedKeys":null,"Slient":false}
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Send : GSF.Ez.Packet.ModifyWorldProperty
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+OnWebSocketMessage : {"__type":"GSF.Ez.Packet.ModifyWorldProperty, GSF.Ez.Packet","PacketId":0,"Property":{"GameModel":"{\"isTurnEnd\":false,\"maxTurnCount\":10,\"currentTurnCount\":4,\"score\":100.0}"},"RemovedKeys":null,"Slient":false}
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Send : GSF.Ez.Packet.ModifyPlayerProperty
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+OnWebSocketMessage : {"__type":"GSF.Ez.Packet.ModifyPlayerProperty, GSF.Ez.Packet","PacketId":0,"Player":{"__type":"GSF.Ez.Packet.EzPlayer, GSF.Ez.Packet","PlayerId":"955765334","Property":{"PlayerModel":"{\"selectedCommandIndex\":-1,\"isReady\":false}"}},"Property":{"PlayerModel":"{\"selectedCommandIndex\":-1,\"isReady\":false}"},"RemovedKeys":null,"Slient":false}
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+OnWebSocketMessage : {"__type":"GSF.Ez.Packet.ModifyPlayerProperty, GSF.Ez.Packet","PacketId":0,"Player":{"__type":"GSF.Ez.Packet.EzPlayer, GSF.Ez.Packet","PlayerId":"1598728096","Property":{"PlayerModel":"{\"selectedCommandIndex\":-1,\"isReady\":false}"}},"Property":{"PlayerModel":"{\"selectedCommandIndex\":-1,\"isReady\":false}"},"RemovedKeys":null,"Slient":false}
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Send : GSF.Ez.Packet.ModifyPlayerProperty
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+OnWebSocketMessage : {"__type":"GSF.Ez.Packet.ModifyPlayerProperty, GSF.Ez.Packet","PacketId":0,"Player":{"__type":"GSF.Ez.Packet.EzPlayer, GSF.Ez.Packet","PlayerId":"955765334","Property":{"PlayerModel":"{\"selectedCommandIndex\":3,\"isReady\":false}"}},"Property":{"PlayerModel":"{\"selectedCommandIndex\":3,\"isReady\":false}"},"RemovedKeys":null,"Slient":false}
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+OnWebSocketMessage : {"__type":"GSF.Ez.Packet.ModifyPlayerProperty, GSF.Ez.Packet","PacketId":0,"Player":{"__type":"GSF.Ez.Packet.EzPlayer, GSF.Ez.Packet","PlayerId":"1598728096","Property":{"PlayerModel":"{\"selectedCommandIndex\":2,\"isReady\":false}"}},"Property":{"PlayerModel":"{\"selectedCommandIndex\":2,\"isReady\":false}"},"RemovedKeys":null,"Slient":false}
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Send : GSF.Ez.Packet.ModifyWorldProperty
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+OnWebSocketMessage : {"__type":"GSF.Ez.Packet.ModifyWorldProperty, GSF.Ez.Packet","PacketId":0,"Property":{"GameModel":"{\"isTurnEnd\":true,\"maxTurnCount\":10,\"currentTurnCount\":5,\"score\":80.0}"},"RemovedKeys":null,"Slient":false}
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Send : GSF.Ez.Packet.ModifyPlayerProperty
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+OnWebSocketMessage : {"__type":"GSF.Ez.Packet.ModifyPlayerProperty, GSF.Ez.Packet","PacketId":0,"Player":{"__type":"GSF.Ez.Packet.EzPlayer, GSF.Ez.Packet","PlayerId":"955765334","Property":{"PlayerModel":"{\"selectedCommandIndex\":-1,\"isReady\":true}"}},"Property":{"PlayerModel":"{\"selectedCommandIndex\":-1,\"isReady\":true}"},"RemovedKeys":null,"Slient":false}
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+OnWebSocketMessage : {"__type":"GSF.Ez.Packet.ModifyPlayerProperty, GSF.Ez.Packet","PacketId":0,"Player":{"__type":"GSF.Ez.Packet.EzPlayer, GSF.Ez.Packet","PlayerId":"1598728096","Property":{"PlayerModel":"{\"selectedCommandIndex\":-1,\"isReady\":true}"}},"Property":{"PlayerModel":"{\"selectedCommandIndex\":-1,\"isReady\":true}"},"RemovedKeys":null,"Slient":false}
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Send : GSF.Ez.Packet.ModifyWorldProperty
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+OnWebSocketMessage : {"__type":"GSF.Ez.Packet.ModifyWorldProperty, GSF.Ez.Packet","PacketId":0,"Property":{"GameModel":"{\"isTurnEnd\":false,\"maxTurnCount\":10,\"currentTurnCount\":5,\"score\":80.0}"},"RemovedKeys":null,"Slient":false}
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Send : GSF.Ez.Packet.ModifyPlayerProperty
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+OnWebSocketMessage : {"__type":"GSF.Ez.Packet.ModifyPlayerProperty, GSF.Ez.Packet","PacketId":0,"Player":{"__type":"GSF.Ez.Packet.EzPlayer, GSF.Ez.Packet","PlayerId":"955765334","Property":{"PlayerModel":"{\"selectedCommandIndex\":-1,\"isReady\":false}"}},"Property":{"PlayerModel":"{\"selectedCommandIndex\":-1,\"isReady\":false}"},"RemovedKeys":null,"Slient":false}
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+OnWebSocketMessage : {"__type":"GSF.Ez.Packet.ModifyPlayerProperty, GSF.Ez.Packet","PacketId":0,"Player":{"__type":"GSF.Ez.Packet.EzPlayer, GSF.Ez.Packet","PlayerId":"1598728096","Property":{"PlayerModel":"{\"selectedCommandIndex\":-1,\"isReady\":false}"}},"Property":{"PlayerModel":"{\"selectedCommandIndex\":-1,\"isReady\":false}"},"RemovedKeys":null,"Slient":false}
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Send : GSF.Ez.Packet.ModifyPlayerProperty
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+OnWebSocketMessage : {"__type":"GSF.Ez.Packet.ModifyPlayerProperty, GSF.Ez.Packet","PacketId":0,"Player":{"__type":"GSF.Ez.Packet.EzPlayer, GSF.Ez.Packet","PlayerId":"955765334","Property":{"PlayerModel":"{\"selectedCommandIndex\":4,\"isReady\":false}"}},"Property":{"PlayerModel":"{\"selectedCommandIndex\":4,\"isReady\":false}"},"RemovedKeys":null,"Slient":false}
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+OnWebSocketMessage : {"__type":"GSF.Ez.Packet.ModifyPlayerProperty, GSF.Ez.Packet","PacketId":0,"Player":{"__type":"GSF.Ez.Packet.EzPlayer, GSF.Ez.Packet","PlayerId":"1598728096","Property":{"PlayerModel":"{\"selectedCommandIndex\":1,\"isReady\":false}"}},"Property":{"PlayerModel":"{\"selectedCommandIndex\":1,\"isReady\":false}"},"RemovedKeys":null,"Slient":false}
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Send : GSF.Ez.Packet.ModifyWorldProperty
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+OnWebSocketMessage : {"__type":"GSF.Ez.Packet.ModifyWorldProperty, GSF.Ez.Packet","PacketId":0,"Property":{"GameModel":"{\"isTurnEnd\":true,\"maxTurnCount\":10,\"currentTurnCount\":6,\"score\":60.0}"},"RemovedKeys":null,"Slient":false}
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Send : GSF.Ez.Packet.ModifyPlayerProperty
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+OnWebSocketMessage : {"__type":"GSF.Ez.Packet.ModifyPlayerProperty, GSF.Ez.Packet","PacketId":0,"Player":{"__type":"GSF.Ez.Packet.EzPlayer, GSF.Ez.Packet","PlayerId":"955765334","Property":{"PlayerModel":"{\"selectedCommandIndex\":-1,\"isReady\":true}"}},"Property":{"PlayerModel":"{\"selectedCommandIndex\":-1,\"isReady\":true}"},"RemovedKeys":null,"Slient":false}
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+OnWebSocketMessage : {"__type":"GSF.Ez.Packet.ModifyPlayerProperty, GSF.Ez.Packet","PacketId":0,"Player":{"__type":"GSF.Ez.Packet.EzPlayer, GSF.Ez.Packet","PlayerId":"1598728096","Property":{"PlayerModel":"{\"selectedCommandIndex\":-1,\"isReady\":true}"}},"Property":{"PlayerModel":"{\"selectedCommandIndex\":-1,\"isReady\":true}"},"RemovedKeys":null,"Slient":false}
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Send : GSF.Ez.Packet.ModifyWorldProperty
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+OnWebSocketMessage : {"__type":"GSF.Ez.Packet.ModifyWorldProperty, GSF.Ez.Packet","PacketId":0,"Property":{"GameModel":"{\"isTurnEnd\":false,\"maxTurnCount\":10,\"currentTurnCount\":6,\"score\":60.0}"},"RemovedKeys":null,"Slient":false}
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Send : GSF.Ez.Packet.ModifyPlayerProperty
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+OnWebSocketMessage : {"__type":"GSF.Ez.Packet.ModifyPlayerProperty, GSF.Ez.Packet","PacketId":0,"Player":{"__type":"GSF.Ez.Packet.EzPlayer, GSF.Ez.Packet","PlayerId":"955765334","Property":{"PlayerModel":"{\"selectedCommandIndex\":-1,\"isReady\":false}"}},"Property":{"PlayerModel":"{\"selectedCommandIndex\":-1,\"isReady\":false}"},"RemovedKeys":null,"Slient":false}
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+OnWebSocketMessage : {"__type":"GSF.Ez.Packet.ModifyPlayerProperty, GSF.Ez.Packet","PacketId":0,"Player":{"__type":"GSF.Ez.Packet.EzPlayer, GSF.Ez.Packet","PlayerId":"1598728096","Property":{"PlayerModel":"{\"selectedCommandIndex\":-1,\"isReady\":false}"}},"Property":{"PlayerModel":"{\"selectedCommandIndex\":-1,\"isReady\":false}"},"RemovedKeys":null,"Slient":false}
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Send : GSF.Ez.Packet.ModifyPlayerProperty
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+OnWebSocketMessage : {"__type":"GSF.Ez.Packet.ModifyPlayerProperty, GSF.Ez.Packet","PacketId":0,"Player":{"__type":"GSF.Ez.Packet.EzPlayer, GSF.Ez.Packet","PlayerId":"955765334","Property":{"PlayerModel":"{\"selectedCommandIndex\":3,\"isReady\":false}"}},"Property":{"PlayerModel":"{\"selectedCommandIndex\":3,\"isReady\":false}"},"RemovedKeys":null,"Slient":false}
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+OnWebSocketMessage : {"__type":"GSF.Ez.Packet.ModifyPlayerProperty, GSF.Ez.Packet","PacketId":0,"Player":{"__type":"GSF.Ez.Packet.EzPlayer, GSF.Ez.Packet","PlayerId":"1598728096","Property":{"PlayerModel":"{\"selectedCommandIndex\":2,\"isReady\":false}"}},"Property":{"PlayerModel":"{\"selectedCommandIndex\":2,\"isReady\":false}"},"RemovedKeys":null,"Slient":false}
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Send : GSF.Ez.Packet.ModifyWorldProperty
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+OnWebSocketMessage : {"__type":"GSF.Ez.Packet.ModifyWorldProperty, GSF.Ez.Packet","PacketId":0,"Property":{"GameModel":"{\"isTurnEnd\":true,\"maxTurnCount\":10,\"currentTurnCount\":7,\"score\":40.0}"},"RemovedKeys":null,"Slient":false}
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Send : GSF.Ez.Packet.ModifyPlayerProperty
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+OnWebSocketMessage : {"__type":"GSF.Ez.Packet.ModifyPlayerProperty, GSF.Ez.Packet","PacketId":0,"Player":{"__type":"GSF.Ez.Packet.EzPlayer, GSF.Ez.Packet","PlayerId":"955765334","Property":{"PlayerModel":"{\"selectedCommandIndex\":-1,\"isReady\":true}"}},"Property":{"PlayerModel":"{\"selectedCommandIndex\":-1,\"isReady\":true}"},"RemovedKeys":null,"Slient":false}
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+OnWebSocketMessage : {"__type":"GSF.Ez.Packet.ModifyPlayerProperty, GSF.Ez.Packet","PacketId":0,"Player":{"__type":"GSF.Ez.Packet.EzPlayer, GSF.Ez.Packet","PlayerId":"1598728096","Property":{"PlayerModel":"{\"selectedCommandIndex\":-1,\"isReady\":true}"}},"Property":{"PlayerModel":"{\"selectedCommandIndex\":-1,\"isReady\":true}"},"RemovedKeys":null,"Slient":false}
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Send : GSF.Ez.Packet.ModifyWorldProperty
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+OnWebSocketMessage : {"__type":"GSF.Ez.Packet.ModifyWorldProperty, GSF.Ez.Packet","PacketId":0,"Property":{"GameModel":"{\"isTurnEnd\":false,\"maxTurnCount\":10,\"currentTurnCount\":7,\"score\":40.0}"},"RemovedKeys":null,"Slient":false}
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Send : GSF.Ez.Packet.ModifyPlayerProperty
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+OnWebSocketMessage : {"__type":"GSF.Ez.Packet.ModifyPlayerProperty, GSF.Ez.Packet","PacketId":0,"Player":{"__type":"GSF.Ez.Packet.EzPlayer, GSF.Ez.Packet","PlayerId":"955765334","Property":{"PlayerModel":"{\"selectedCommandIndex\":-1,\"isReady\":false}"}},"Property":{"PlayerModel":"{\"selectedCommandIndex\":-1,\"isReady\":false}"},"RemovedKeys":null,"Slient":false}
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+OnWebSocketMessage : {"__type":"GSF.Ez.Packet.ModifyPlayerProperty, GSF.Ez.Packet","PacketId":0,"Player":{"__type":"GSF.Ez.Packet.EzPlayer, GSF.Ez.Packet","PlayerId":"1598728096","Property":{"PlayerModel":"{\"selectedCommandIndex\":-1,\"isReady\":false}"}},"Property":{"PlayerModel":"{\"selectedCommandIndex\":-1,\"isReady\":false}"},"RemovedKeys":null,"Slient":false}
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Send : GSF.Ez.Packet.ModifyPlayerProperty
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+OnWebSocketMessage : {"__type":"GSF.Ez.Packet.ModifyPlayerProperty, GSF.Ez.Packet","PacketId":0,"Player":{"__type":"GSF.Ez.Packet.EzPlayer, GSF.Ez.Packet","PlayerId":"955765334","Property":{"PlayerModel":"{\"selectedCommandIndex\":1,\"isReady\":false}"}},"Property":{"PlayerModel":"{\"selectedCommandIndex\":1,\"isReady\":false}"},"RemovedKeys":null,"Slient":false}
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+OnWebSocketMessage : {"__type":"GSF.Ez.Packet.ModifyPlayerProperty, GSF.Ez.Packet","PacketId":0,"Player":{"__type":"GSF.Ez.Packet.EzPlayer, GSF.Ez.Packet","PlayerId":"1598728096","Property":{"PlayerModel":"{\"selectedCommandIndex\":1,\"isReady\":false}"}},"Property":{"PlayerModel":"{\"selectedCommandIndex\":1,\"isReady\":false}"},"RemovedKeys":null,"Slient":false}
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Send : GSF.Ez.Packet.ModifyWorldProperty
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+OnWebSocketMessage : {"__type":"GSF.Ez.Packet.ModifyWorldProperty, GSF.Ez.Packet","PacketId":0,"Property":{"GameModel":"{\"isTurnEnd\":true,\"maxTurnCount\":10,\"currentTurnCount\":8,\"score\":60.0}"},"RemovedKeys":null,"Slient":false}
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Send : GSF.Ez.Packet.ModifyPlayerProperty
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+OnWebSocketMessage : {"__type":"GSF.Ez.Packet.ModifyPlayerProperty, GSF.Ez.Packet","PacketId":0,"Player":{"__type":"GSF.Ez.Packet.EzPlayer, GSF.Ez.Packet","PlayerId":"955765334","Property":{"PlayerModel":"{\"selectedCommandIndex\":-1,\"isReady\":true}"}},"Property":{"PlayerModel":"{\"selectedCommandIndex\":-1,\"isReady\":true}"},"RemovedKeys":null,"Slient":false}
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+OnWebSocketMessage : {"__type":"GSF.Ez.Packet.ModifyPlayerProperty, GSF.Ez.Packet","PacketId":0,"Player":{"__type":"GSF.Ez.Packet.EzPlayer, GSF.Ez.Packet","PlayerId":"1598728096","Property":{"PlayerModel":"{\"selectedCommandIndex\":-1,\"isReady\":true}"}},"Property":{"PlayerModel":"{\"selectedCommandIndex\":-1,\"isReady\":true}"},"RemovedKeys":null,"Slient":false}
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Send : GSF.Ez.Packet.ModifyWorldProperty
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+OnWebSocketMessage : {"__type":"GSF.Ez.Packet.ModifyWorldProperty, GSF.Ez.Packet","PacketId":0,"Property":{"GameModel":"{\"isTurnEnd\":false,\"maxTurnCount\":10,\"currentTurnCount\":8,\"score\":60.0}"},"RemovedKeys":null,"Slient":false}
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Send : GSF.Ez.Packet.ModifyPlayerProperty
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+OnWebSocketMessage : {"__type":"GSF.Ez.Packet.ModifyPlayerProperty, GSF.Ez.Packet","PacketId":0,"Player":{"__type":"GSF.Ez.Packet.EzPlayer, GSF.Ez.Packet","PlayerId":"955765334","Property":{"PlayerModel":"{\"selectedCommandIndex\":-1,\"isReady\":false}"}},"Property":{"PlayerModel":"{\"selectedCommandIndex\":-1,\"isReady\":false}"},"RemovedKeys":null,"Slient":false}
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+OnWebSocketMessage : {"__type":"GSF.Ez.Packet.ModifyPlayerProperty, GSF.Ez.Packet","PacketId":0,"Player":{"__type":"GSF.Ez.Packet.EzPlayer, GSF.Ez.Packet","PlayerId":"1598728096","Property":{"PlayerModel":"{\"selectedCommandIndex\":-1,\"isReady\":false}"}},"Property":{"PlayerModel":"{\"selectedCommandIndex\":-1,\"isReady\":false}"},"RemovedKeys":null,"Slient":false}
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Send : GSF.Ez.Packet.ModifyPlayerProperty
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+OnWebSocketMessage : {"__type":"GSF.Ez.Packet.ModifyPlayerProperty, GSF.Ez.Packet","PacketId":0,"Player":{"__type":"GSF.Ez.Packet.EzPlayer, GSF.Ez.Packet","PlayerId":"955765334","Property":{"PlayerModel":"{\"selectedCommandIndex\":0,\"isReady\":false}"}},"Property":{"PlayerModel":"{\"selectedCommandIndex\":0,\"isReady\":false}"},"RemovedKeys":null,"Slient":false}
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+OnWebSocketMessage : {"__type":"GSF.Ez.Packet.ModifyPlayerProperty, GSF.Ez.Packet","PacketId":0,"Player":{"__type":"GSF.Ez.Packet.EzPlayer, GSF.Ez.Packet","PlayerId":"1598728096","Property":{"PlayerModel":"{\"selectedCommandIndex\":3,\"isReady\":false}"}},"Property":{"PlayerModel":"{\"selectedCommandIndex\":3,\"isReady\":false}"},"RemovedKeys":null,"Slient":false}
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Send : GSF.Ez.Packet.ModifyWorldProperty
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+OnWebSocketMessage : {"__type":"GSF.Ez.Packet.ModifyWorldProperty, GSF.Ez.Packet","PacketId":0,"Property":{"GameModel":"{\"isTurnEnd\":true,\"maxTurnCount\":10,\"currentTurnCount\":9,\"score\":40.0}"},"RemovedKeys":null,"Slient":false}
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Send : GSF.Ez.Packet.ModifyPlayerProperty
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+OnWebSocketMessage : {"__type":"GSF.Ez.Packet.ModifyPlayerProperty, GSF.Ez.Packet","PacketId":0,"Player":{"__type":"GSF.Ez.Packet.EzPlayer, GSF.Ez.Packet","PlayerId":"955765334","Property":{"PlayerModel":"{\"selectedCommandIndex\":-1,\"isReady\":true}"}},"Property":{"PlayerModel":"{\"selectedCommandIndex\":-1,\"isReady\":true}"},"RemovedKeys":null,"Slient":false}
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+OnWebSocketMessage : {"__type":"GSF.Ez.Packet.ModifyPlayerProperty, GSF.Ez.Packet","PacketId":0,"Player":{"__type":"GSF.Ez.Packet.EzPlayer, GSF.Ez.Packet","PlayerId":"1598728096","Property":{"PlayerModel":"{\"selectedCommandIndex\":-1,\"isReady\":true}"}},"Property":{"PlayerModel":"{\"selectedCommandIndex\":-1,\"isReady\":true}"},"RemovedKeys":null,"Slient":false}
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Send : GSF.Ez.Packet.ModifyWorldProperty
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+OnWebSocketMessage : {"__type":"GSF.Ez.Packet.ModifyWorldProperty, GSF.Ez.Packet","PacketId":0,"Property":{"GameModel":"{\"isTurnEnd\":false,\"maxTurnCount\":10,\"currentTurnCount\":9,\"score\":40.0}"},"RemovedKeys":null,"Slient":false}
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Send : GSF.Ez.Packet.ModifyPlayerProperty
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+OnWebSocketMessage : {"__type":"GSF.Ez.Packet.ModifyPlayerProperty, GSF.Ez.Packet","PacketId":0,"Player":{"__type":"GSF.Ez.Packet.EzPlayer, GSF.Ez.Packet","PlayerId":"955765334","Property":{"PlayerModel":"{\"selectedCommandIndex\":-1,\"isReady\":false}"}},"Property":{"PlayerModel":"{\"selectedCommandIndex\":-1,\"isReady\":false}"},"RemovedKeys":null,"Slient":false}
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+OnWebSocketMessage : {"__type":"GSF.Ez.Packet.ModifyPlayerProperty, GSF.Ez.Packet","PacketId":0,"Player":{"__type":"GSF.Ez.Packet.EzPlayer, GSF.Ez.Packet","PlayerId":"1598728096","Property":{"PlayerModel":"{\"selectedCommandIndex\":-1,\"isReady\":false}"}},"Property":{"PlayerModel":"{\"selectedCommandIndex\":-1,\"isReady\":false}"},"RemovedKeys":null,"Slient":false}
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Send : GSF.Ez.Packet.ModifyPlayerProperty
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+OnWebSocketMessage : {"__type":"GSF.Ez.Packet.ModifyPlayerProperty, GSF.Ez.Packet","PacketId":0,"Player":{"__type":"GSF.Ez.Packet.EzPlayer, GSF.Ez.Packet","PlayerId":"955765334","Property":{"PlayerModel":"{\"selectedCommandIndex\":2,\"isReady\":false}"}},"Property":{"PlayerModel":"{\"selectedCommandIndex\":2,\"isReady\":false}"},"RemovedKeys":null,"Slient":false}
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+OnWebSocketMessage : {"__type":"GSF.Ez.Packet.ModifyPlayerProperty, GSF.Ez.Packet","PacketId":0,"Player":{"__type":"GSF.Ez.Packet.EzPlayer, GSF.Ez.Packet","PlayerId":"1598728096","Property":{"PlayerModel":"{\"selectedCommandIndex\":2,\"isReady\":false}"}},"Property":{"PlayerModel":"{\"selectedCommandIndex\":2,\"isReady\":false}"},"RemovedKeys":null,"Slient":false}
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Send : GSF.Ez.Packet.ModifyWorldProperty
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+OnWebSocketMessage : {"__type":"GSF.Ez.Packet.ModifyWorldProperty, GSF.Ez.Packet","PacketId":0,"Property":{"GameModel":"{\"isTurnEnd\":true,\"maxTurnCount\":10,\"currentTurnCount\":10,\"score\":60.0}"},"RemovedKeys":null,"Slient":false}
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Send : GSF.Ez.Packet.ModifyPlayerProperty
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+OnWebSocketMessage : {"__type":"GSF.Ez.Packet.ModifyPlayerProperty, GSF.Ez.Packet","PacketId":0,"Player":{"__type":"GSF.Ez.Packet.EzPlayer, GSF.Ez.Packet","PlayerId":"955765334","Property":{"PlayerModel":"{\"selectedCommandIndex\":-1,\"isReady\":true}"}},"Property":{"PlayerModel":"{\"selectedCommandIndex\":-1,\"isReady\":true}"},"RemovedKeys":null,"Slient":false}
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+OnWebSocketMessage : {"__type":"GSF.Ez.Packet.ModifyPlayerProperty, GSF.Ez.Packet","PacketId":0,"Player":{"__type":"GSF.Ez.Packet.EzPlayer, GSF.Ez.Packet","PlayerId":"1598728096","Property":{"PlayerModel":"{\"selectedCommandIndex\":-1,\"isReady\":true}"}},"Property":{"PlayerModel":"{\"selectedCommandIndex\":-1,\"isReady\":true}"},"RemovedKeys":null,"Slient":false}
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Send : GSF.Ez.Packet.ModifyWorldProperty
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+OnWebSocketMessage : {"__type":"GSF.Ez.Packet.ModifyWorldProperty, GSF.Ez.Packet","PacketId":0,"Property":{"GameModel":"{\"isTurnEnd\":false,\"maxTurnCount\":10,\"currentTurnCount\":10,\"score\":60.0}"},"RemovedKeys":null,"Slient":false}
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+OnWebSocketMessage : {"__type":"GSF.Ez.Packet.LeavePlayer, GSF.Ez.Packet","PacketId":0,"Player":{"__type":"GSF.Ez.Packet.EzPlayer, GSF.Ez.Packet","PlayerId":"1598728096","Property":{"PlayerModel":"{\"selectedCommandIndex\":-1,\"isReady\":true}"}},"RootPlayerId":"955765334"}
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
 OnWebSocketClose : 
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 3.308766 ms
+
+Unloading 97 unused Assets to reduce memory usage. Loaded Objects now: 285.
+Total: 5.501891 ms (FindLiveObjects: 0.034854 ms CreateObjectMapping: 0.026741 ms MarkObjects: 0.509595 ms  DeleteObjects: 4.929798 ms)
+
+Setting up 2 worker threads for Enlighten.
+  Thread -> id: 3784 -> priority: 1 
+  Thread -> id: 2168 -> priority: 1 
