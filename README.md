@@ -5,6 +5,6 @@
   - BabyMaker.exe for client ( 2 client necessary for play )
 * How to play
   - Push the button to select your pose.
-  - If your pose goes well with the other's, then you got 'Baby Point'
+  - If your pose goes well with the other's, then you got 'Baby Point'
   - If your 'Baby point' goes below 0, then game over
   - If your 'Baby point' is higher than 100 at the end of game, then you'll get a beautiful baby.
