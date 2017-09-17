@@ -1,0 +1,1 @@
+"%cd%\BabyMaker.exe" -server -batchmode
